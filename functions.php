@@ -4,23 +4,30 @@
  * Description: Theme functions and definitions [includes all functions]
  *
  * @package WordPress
- * @subpackage MyPortfolio
+ * @subpackage MyWork
  * @since 1.0.0
  */
 
 /* ---------------------------------------------------------
 >>>  TABLE OF CONTENTS:
 ------------------------------------------------------------
+
 1 - Customize
 2 - Metaboxes
 3 - Options-Theme
 4 - Post-Type
 5 - Taxonomies
+
 ----------------------------------------------------------*/
 
 /** =====================================================
  *  1 - CUSTOMIZE
  */
+
+require_once ('inc/customize/theme.php');
+require_once ('inc/customize/assets.php');
+require_once ('inc/customize/admin.php');
+require_once ('inc/customize/dashboard.php');
 
 
 /** =====================================================
