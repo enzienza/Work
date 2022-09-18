@@ -1,0 +1,34 @@
+/*!
+Theme Name: My Portfolio 2022
+Theme URI: https://enzawebdev.be/
+Author: Enza Lombardo
+Author URI: https://enzalombardo.be
+Description: My Portfolio online
+Version: 1.0
+Text Domain: MyWork
+copyright : Enza ©2022
+Tags: portfolio, works, about
+*/
+
+// VENDOR -------------------------------
+
+// UTILITIES ----------------------------
+@import "./utilities/utilities";
+
+// BASE ---------------------------------
+@import "./base/base";
+
+// COMPONENTS ---------------------------
+@import "./components/components";
+
+// ELEMENTS -----------------------------
+@import "./elements/elements";
+
+// FORM ---------------------------------
+@import "./forms/forms";
+
+// WP_BLOCK -----------------------------
+@import "./WP_block/wp-block";
+
+// LAYOUT -------------------------------
+@import "./layout/layout";
