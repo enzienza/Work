@@ -9,7 +9,6 @@
  */
 ?>
 
-<?php bloginfo(); ?>
 
 <?php bloginfo('name')?> © 2022
 </body>

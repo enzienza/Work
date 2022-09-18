@@ -24,11 +24,7 @@
  *  1 - CUSTOMIZE
  */
 
-require_once ('inc/customize/theme.php');
-require_once ('inc/customize/assets.php');
-require_once ('inc/customize/admin.php');
-require_once ('inc/customize/dashboard.php');
-
+require_once ('inc/customize/config-index.php');
 
 /** =====================================================
  *  2 - METABOXES
