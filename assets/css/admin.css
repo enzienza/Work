@@ -1,0 +1,528 @@
+/*
+Name: Custom Adimin
+Author: Enza Lombardo
+Author URI: http://www.enzalombardo.be
+Description: feuille de style pour personnaliser l'Administration du site
+Version: 1.0
+Text Domain: myCV
+copyright : Enza ©2021
+Tags:
+*/
+
+
+/* ---------------------------------------------------------
+>>>  TABLE OF CONTENTS:
+------------------------------------------------------------
+0 - ROOT
+1 - GENERAL
+2 - LOGIN PAGE
+3 - ALL DASHBOARD
+4 - MYOPTIONS [API - Options-Theme]
+5 - COLUMNS ADMIN [Custom-Post-Type]
+6 - METABOXES
+7 - RESPONSIVE
+
+----------------------------------------------------------*/
+
+/** ==============================================
+    0 - ROOT
+ */
+:root{
+    --bg-login: #232634;
+    --darken-bluegray: #32373c;
+    --lighten-bluegray: #5B6786;
+    --color-white: #fff;
+    --color-light: #f1f1f1;
+    --color-border: #7e8993;
+    --lighten-grey: #cecece;
+    --color-succes: green;
+    --color-danger: red;
+
+}
+
+/** ==============================================
+    1 - GENERAL
+ */
+.sub-title{
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: larger;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--lighten-bluegray);
+    letter-spacing: .5px;
+    padding-bottom: 1rem;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.align-center{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.justify-center{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.no-align{
+    vertical-align: inherit;
+}
+
+/* Space between */
+.space-x-4{
+    margin-left: 1rem;
+}
+.space-x-8{
+    margin-left: 2rem;
+}
+.space-y-2{
+    margin-top: .5rem;
+}
+.space-y-4{
+    margin-top: 1rem;
+}
+
+
+/* Font-Weight */
+.font-light{
+    font-weight: 300;
+}
+.font-bold{
+    font-weight: 800;
+}
+
+/* SIZING */
+.w-10{
+    width: 11rem;
+}
+.w-50{
+    width: 50%;
+}
+.w-full{
+    width: 100%;
+}
+
+.h-50{
+    height: 50%;
+}
+.h-full{
+    height: 100%;
+}
+
+/* GRID */
+.grid-cols-3{
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr .5rem;
+    grid-template-columns: 1fr;
+    gap: .5rem;
+}
+
+.grid-cols-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+/* MARGIN */
+.mt-1{
+    margin-top: .5rem;
+}
+
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-1{
+    margin-bottom: .5rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
+.mr-1{
+    margin-right: .5rem;
+}
+
+.separation{
+    margin-top: 2rem;
+    border-top: 1px solid var(--lighten-grey);
+    padding-top: 1rem;
+}
+
+blockquote{
+    margin: 1em;
+    border-left: 2px solid var(--color-border);
+    padding-left: 10px;
+    text-align: justify;
+    font-size: small;
+    color: var(--color-border);
+}
+
+/* --- list inline --- */
+/* Grid 5 Columns */
+.elem-group{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    /*line-height: 2;*/
+    margin: 0;
+    margin-top: .5rem;
+}
+.elem-item{
+    width: 100%;
+    line-height: 1rem;
+}
+.elem-item .icons {
+    margin-left: 1em;
+    vertical-align: middle;
+    font-weight: bold;
+}
+/* Grid 2 columns */
+.list-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.list-item{
+    width: 100%;
+    line-height: 2;
+}
+
+/* text align */
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+
+
+/** ==============================================
+     2 - LOGIN PAGE
+ */
+/* fond */
+body.login {
+    background: var(--bg-login);
+    height: 100vh;
+}
+
+/* logo */
+#login h1 a, .login h1 a {
+    background: url('../img/logo-login.png') no-repeat;
+    background-position: center center;
+    background-size: cover;
+    max-width: 257px;
+    max-height: 198px;
+    /*filter: invert(0.9);*/
+}
+
+/* formulaire */
+.login form {
+    border: none;
+}
+#pearlIt {
+    background-color: inherit;
+    box-shadow: none;
+}
+
+/* Liens */
+.login #backtoblog, .login #nav{
+    padding: 0;
+}
+#login #nav a, #login #backtoblog a {
+    color: white;
+    display: block;
+    background: gray;
+    padding: 10px;
+    box-shadow: 1px 1px 1px 4px rgba(85, 85, 85, 0.7);
+}
+
+/** ==============================================
+    3 - ALL DASHBOARD
+ */
+/* form */
+form h2 {
+    padding-top: 1.5em;
+    border-top: 1px solid var(--lighten-grey);
+    width: 98%;
+    font-size: 1.3em;
+}
+/* Element Forms */
+input[type="color"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="datetime"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select, textarea {
+    box-shadow: 0 0 0 transparent;
+    border-radius: 4px;
+    border: 1px solid var(--lighten-grey);
+    background: var(--color-white);
+    color: var(--darken-bluegray);
+}
+
+input[type="checkbox"]{
+    border-color: var(--lighten-grey);
+    margin: auto 5px;
+}
+::placeholder{
+    color: var(--color-border);
+}
+
+.small-input{
+    width: 8rem;
+}
+
+/* general */
+.general-item {
+    display: inline-flex;
+    align-items: center;
+}
+.general-item input[type="checkbox"],
+.project-item input[type="checkbox"],
+.client-item input[type="checkbox"]{
+    margin: 0;
+    margin-right: 5px;
+}
+.project-item, .client-item{
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.grid-box input[type="text"], .grid-box textarea {
+    width: 100%;
+}
+
+.grid-box textarea{
+    min-height: 7rem;
+}
+
+.wp-admin {
+    background: var(--color-light);
+}
+
+.wrap .wp-heagin-inline {
+    font-size: 2em;
+}
+
+/* Picture */
+.img-hero{
+    width: 40%;
+    object-fit: cover;
+    max-height: 200px;
+    border-radius: 10px;
+    margin: .5rem 0;
+}
+
+/* other */
+.underline-700{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.underline-700::after{
+    content: ":";
+    padding-left: 7px;
+    padding-right: 7px;
+    display: inline-flex;
+}
+
+/* box-choose */
+.box-choose{
+    border: 1px dashed var(--color-border);
+    border-radius: 15px;
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    margin-right: 2rem;
+}
+.box-choose .box-title{
+    color: var(--color-border);
+}
+.box-choose .grid-cols-3 {
+    padding: 0.5em 1.5em;
+}
+
+.box-choose blockquote{
+    font-size: smaller;
+}
+.box-choose .mt-1 {
+    padding: .5rem;
+}
+
+/** ==============================================
+    4 - MYOPTIONS [API - Options-Theme]
+ */
+/* Title */
+.myoptions h2{
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: var(--lighten-bluegray);
+}
+
+.myoptions h2::before{
+    content: "-";
+    margin-right: .5em;
+    font-size: larger;
+}
+
+.myoptions .section-description{
+    line-height: 1.5;
+    margin: 0;
+    padding-left: 20px;
+    font-weight: lighter;
+    font-size: .9em;
+}
+
+
+/* Photo / Media  */
+.mini-thumbnail{
+    width: 200px;
+    border-radius: 50%;
+    height: 200px;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.item-picture-cv, .grid-box, .group-languages{
+    border-right: 1px solid var(--lighten-grey);
+    padding-left: .5rem;
+    padding-right: 1rem;
+}
+
+.item-picture-cv:first-child, .grid-box:first-child, .group-languages:first-child{
+    padding-left: 0;
+}
+
+.item-picture-cv:last-child, .grid-box:last-child, .group-languages:last-child{
+    border-right: none;
+}
+
+.picture-cv-title, .box-title{
+    font-weight: bold;
+    line-height: 2;
+}
+
+.picture-cv-preview{
+    line-height: 3;
+    margin-bottom: .5rem;
+}
+.picture-cv-file input[type="file"], .input-file input[type="file"] {
+    background: var(--color-white);
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+    border:1px solid var(--lighten-grey);
+}
+.bg-input-file input[type="file"]{
+    background: var(--color-white);
+    width: 40%;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid var(--lighten-grey);
+}
+
+
+/* choose-item */
+.choose-item{
+    line-height: 2;
+}
+
+.choose-item label{
+    vertical-align: inherit;
+}
+
+/** ==============================================
+    5 - COLUMNS ADMIN [Custom-Post-Type]
+ */
+
+/** ==============================================
+    6 - METABOXES
+ */
+.components-base-control__field div{
+    margin: 1rem auto;
+}
+.components-base-control__field label{
+    line-height: 2;
+}
+.components-base-control__field .desc {
+    color: var(--color-border);
+}
+.meta-box-sortables input::placeholder {
+    font-weight: 300;
+    color: var(--color-border);
+}
+
+input[type="radio"]{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+/** ==============================================
+    7 - RESPONSIVE
+ */
+
+/* --- XS --- */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .elem-group{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- SM --- */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .elem-group{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* --- MD --- */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* --- LG --- */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .grid-cols-3{
+        -ms-grid-columns: 1fr .5rem 1fr .5em 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .picture-cv-title{
+        text-align: center;
+    }
+}
+
+/* --- XL --- */
+@media only screen and (min-width: 1200px){
+    .grid-cols-3{
+        -ms-grid-columns: 1fr .5rem 1fr .5em 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .picture-cv-title{
+        text-align: center;
+    }
+}
