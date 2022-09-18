@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 22:03+0000\n"
-"PO-Revision-Date: 2022-09-18 22:57+0000\n"
+"PO-Revision-Date: 2022-09-18 23:19+0000\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -14,6 +14,21 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: MyWork"
+
+#: inc/options-theme/OP_Profile/02-media.php:128
+msgid "Ajouter les différentes photos de votre Portfolio"
+msgstr "Aggiungere le diverse foto del vostro portfolio"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/02-media.php:109
+msgid "Ajouter les medias"
+msgstr "Aggiungi media"
+
+#: inc/options-theme/OP_Profile/02-media.php:199
+#: inc/options-theme/OP_Profile/02-media.php:216
+#: inc/options-theme/OP_Profile/02-media.php:233
+msgid "Aperçu :"
+msgstr "Anteprima :"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:120
@@ -59,11 +74,40 @@ msgid "Localité"
 msgstr ""
 "Località\n"
 
+#: inc/options-theme/OP_Profile/02-media.php:214
+#: inc/options-theme/OP_Profile/02-media.php:218
+msgid "Ma photo d'avatar"
+msgstr ""
+"La foto del mio avatar\n"
+
+#: inc/options-theme/OP_Profile/02-media.php:197
+#: inc/options-theme/OP_Profile/02-media.php:201
+msgid "Ma photo de profile"
+msgstr "La foto del mio profilo"
+
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:142
 msgid "Mes coordonnés"
 msgstr ""
 "I miei dati di contatto\n"
+
+#. slug parent
+#. page_title
+#: inc/options-theme/OP_Profile/02-media.php:55
+#: inc/options-theme/OP_Profile/02-media.php:56
+#: inc/options-theme/OP_Profile/02-media.php:69
+msgid "Mes médias"
+msgstr "I miei media"
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/02-media.php:101
+msgid "Mes photos"
+msgstr "Le mie foto"
+
+#: inc/options-theme/OP_Profile/02-media.php:231
+#: inc/options-theme/OP_Profile/02-media.php:235
+msgid "Mon logo"
+msgstr "Il mio logo"
 
 #. TITLE_PAGE
 #: inc/options-theme/OP_Profile/01-personalDetails.php:57
@@ -118,6 +162,11 @@ msgid "Section dédiée à la traduction du post"
 msgstr ""
 "Sezione dedicata alla traduzione del lavoro\n"
 "\n"
+
+#: inc/options-theme/OP_Profile/02-media.php:71
+msgid ""
+"Sur cette page vous pouvez gérer les différents médias de votre portfolio"
+msgstr "In questa pagina puoi gestire i diversi media del tuo portfolio."
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:75
 msgid "Sur cette page vous pouvez gérer vos inforation personnel"

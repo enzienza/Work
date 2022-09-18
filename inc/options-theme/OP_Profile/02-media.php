@@ -196,7 +196,7 @@ class myprofil_medias{
             <div class="item-picture-cv">
                 <p class="picture-cv-title"><?php _e("Ma photo de profile", "MyWork") ?></p>
                 <div class="picture-cv-preview">
-                    <p><?php _e("aperçu :", "MyWork" )?></p>
+                    <p><?php _e("Aperçu :", "MyWork" )?></p>
                     <img src="<?php echo get_option("myprofil") ?>"
                          alt="<?php _e('Ma photo de profile', 'MyWork') ?>"
                          class="mini-thumbnail"
@@ -213,7 +213,7 @@ class myprofil_medias{
             <div class="item-picture-cv">
                 <p class="picture-cv-title"><?php _e("Ma photo d'avatar", "MyWork") ?></p>
                 <div class="picture-cv-preview">
-                    <p><?php _e("aperçu :", "MyWork" )?></p>
+                    <p><?php _e("Aperçu :", "MyWork" )?></p>
                     <img src="<?php echo get_option("myavatar") ?>"
                          alt="<?php _e('Ma photo d\'avatar', 'MyWork') ?>"
                          class="mini-thumbnail"
@@ -230,7 +230,7 @@ class myprofil_medias{
             <div class="item-picture-cv">
                 <p class="picture-cv-title"><?php _e("Mon logo", "MyWork") ?></p>
                 <div class="picture-cv-preview">
-                    <p><?php _e("aperçu :", "MyWork" )?></p>
+                    <p><?php _e("Aperçu :", "MyWork" )?></p>
                     <img src="<?php echo get_option("mylogo") ?>"
                          alt="<?php _e('Mon logo', 'MyWork') ?>"
                          class="mini-thumbnail"
