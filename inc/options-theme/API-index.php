@@ -23,3 +23,4 @@ require_once ('OP_Profile/05-curriculum.php');
  *      group all custom theme files
  */
 require_once ('OP_theme/01-customTheme.php');
+require_once ('OP_theme/02-core.php');
