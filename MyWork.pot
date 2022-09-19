@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-19 14:47+0000\n"
+"POT-Creation-Date: 2022-09-19 16:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,6 +15,10 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: MyWork"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:115
+msgid "about"
+msgstr ""
 
 #. slug parent
 #. page_title
@@ -45,6 +49,14 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/03-network.php:187
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:145
+msgid "Contact"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:85
+msgid "Core"
 msgstr ""
 
 #. slug parent
@@ -102,6 +114,19 @@ msgstr ""
 msgid "GitHub"
 msgstr ""
 
+#: inc/options-theme/OP_theme/01-customTheme.php:87
+#: inc/options-theme/OP_theme/01-customTheme.php:102
+#: inc/options-theme/OP_theme/01-customTheme.php:117
+#: inc/options-theme/OP_theme/01-customTheme.php:132
+#: inc/options-theme/OP_theme/01-customTheme.php:147
+#: inc/options-theme/OP_theme/01-customTheme.php:162
+msgid "Gérer la section"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:100
+msgid "Home"
+msgstr ""
+
 #. Author URI of the theme
 msgid "https://enzalombardo.be"
 msgstr ""
@@ -124,6 +149,30 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:291
 msgid "La localité"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:92
+msgid "Lien pour gérer l'affichage de l'header et du footer"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:167
+msgid "Lien pour gérer l'affichage de la page d'erreur"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:152
+msgid "Lien pour gérer la section contact"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:107
+msgid "Lien pour gérer la section de l'home"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:122
+msgid "Lien pour gérer la section l'about"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:137
+msgid "Lien pour gérer la section portfolio"
 msgstr ""
 
 #. SLUG_FIELD
@@ -189,6 +238,12 @@ msgstr ""
 msgid "Mon profile"
 msgstr ""
 
+#. TITLE_PAGE
+#: inc/options-theme/OP_theme/01-customTheme.php:57
+#: inc/options-theme/OP_theme/01-customTheme.php:58
+msgid "Mon thème"
+msgstr ""
+
 #. Name of the theme
 msgid "My Portfolio 2022"
 msgstr ""
@@ -206,6 +261,14 @@ msgstr ""
 msgid "Nom complet"
 msgstr ""
 
+#: inc/options-theme/OP_theme/01-customTheme.php:160
+msgid "Page d'erreur"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:73
+msgid "Page d'option du theme"
+msgstr ""
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/04-aboutme.php:118
 #: inc/options-theme/OP_Profile/04-aboutme.php:154
@@ -218,6 +281,10 @@ msgstr ""
 #: inc/options-theme/OP_Profile/04-aboutme.php:147
 #: inc/options-theme/OP_Profile/04-aboutme.php:183
 msgid "Petit intro"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:130
+msgid "Portfolio"
 msgstr ""
 
 #. SLUG_SECTION
@@ -279,6 +346,10 @@ msgstr ""
 #: inc/options-theme/OP_Profile/02-media.php:71
 msgid ""
 "Sur cette page vous pouvez gérer les différents médias de votre portfolio"
+msgstr ""
+
+#: inc/options-theme/OP_theme/01-customTheme.php:75
+msgid "Sur cette page vous pouvez gérer les différents éléments de notre theme"
 msgstr ""
 
 #: inc/options-theme/OP_Profile/03-network.php:71

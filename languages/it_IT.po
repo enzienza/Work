@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 22:03+0000\n"
-"PO-Revision-Date: 2022-09-19 15:20+0000\n"
+"PO-Revision-Date: 2022-09-19 16:39+0000\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -14,6 +14,10 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: MyWork"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:115
+msgid "about"
+msgstr "Su di me"
 
 #. slug parent
 #. page_title
@@ -45,6 +49,14 @@ msgstr "Behance"
 #: inc/options-theme/OP_Profile/03-network.php:187
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
 msgstr "Spunta e aggiungi l'URL dei tuoi social network"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:145
+msgid "Contact"
+msgstr "Contact"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:85
+msgid "Core"
+msgstr "Core"
 
 #. slug parent
 #. page_title
@@ -109,6 +121,19 @@ msgid "GitHub"
 msgstr ""
 "GitHub\n"
 
+#: inc/options-theme/OP_theme/01-customTheme.php:87
+#: inc/options-theme/OP_theme/01-customTheme.php:102
+#: inc/options-theme/OP_theme/01-customTheme.php:117
+#: inc/options-theme/OP_theme/01-customTheme.php:132
+#: inc/options-theme/OP_theme/01-customTheme.php:147
+#: inc/options-theme/OP_theme/01-customTheme.php:162
+msgid "Gérer la section"
+msgstr "Gestire la sezione"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:100
+msgid "Home"
+msgstr "Home"
+
 #. Author URI of the theme
 msgid "https://enzalombardo.be"
 msgstr ""
@@ -136,6 +161,35 @@ msgstr ""
 msgid "La localité"
 msgstr ""
 "La località\n"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:92
+msgid "Lien pour gérer l'affichage de l'header et du footer"
+msgstr ""
+"Link per gestire la visualizzazione dell'header e del footer\n"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:167
+msgid "Lien pour gérer l'affichage de la page d'erreur"
+msgstr ""
+"Link per gestire la pagina di errore\n"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:152
+msgid "Lien pour gérer la section contact"
+msgstr ""
+"Link per gestire la sezione contatti\n"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:107
+msgid "Lien pour gérer la section de l'home"
+msgstr ""
+"Link per gestire la sezione home\n"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:122
+msgid "Lien pour gérer la section l'about"
+msgstr ""
+"Link per gestire la sezione about\n"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:137
+msgid "Lien pour gérer la section portfolio"
+msgstr "Link per la gestione della sezione portfolio"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:133
@@ -204,6 +258,12 @@ msgid "Mon profile"
 msgstr ""
 "Il mio profilo\n"
 
+#. TITLE_PAGE
+#: inc/options-theme/OP_theme/01-customTheme.php:57
+#: inc/options-theme/OP_theme/01-customTheme.php:58
+msgid "Mon thème"
+msgstr "Il mio tema"
+
 #. Name of the theme
 msgid "My Portfolio 2022"
 msgstr ""
@@ -225,6 +285,14 @@ msgid "Nom complet"
 msgstr ""
 "Nome completo\n"
 
+#: inc/options-theme/OP_theme/01-customTheme.php:160
+msgid "Page d'erreur"
+msgstr "Pagina di errore"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:73
+msgid "Page d'option du theme"
+msgstr "Pagina delle opzioni del tema"
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/04-aboutme.php:118
 #: inc/options-theme/OP_Profile/04-aboutme.php:154
@@ -238,6 +306,10 @@ msgstr "Parlare di sé"
 #: inc/options-theme/OP_Profile/04-aboutme.php:183
 msgid "Petit intro"
 msgstr "Breve introduzione"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:130
+msgid "Portfolio"
+msgstr "Portfolio"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:187
@@ -307,6 +379,11 @@ msgstr "Sito web"
 msgid ""
 "Sur cette page vous pouvez gérer les différents médias de votre portfolio"
 msgstr "In questa pagina puoi gestire i diversi media del tuo portfolio."
+
+#: inc/options-theme/OP_theme/01-customTheme.php:75
+msgid "Sur cette page vous pouvez gérer les différents éléments de notre theme"
+msgstr ""
+"In questa pagina è possibile gestire i diversi elementi del nostro tema"
 
 #: inc/options-theme/OP_Profile/03-network.php:71
 msgid "Sur cette page vous pouvez gérer les url de vos réseaux sociaux"
