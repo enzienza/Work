@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: My Portfolio 2022\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-18 22:03+0000\n"
+"PO-Revision-Date: 2022-09-18 23:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (UK)\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0.2\n"
+"X-Domain: MyWork"
+
+#: inc/options-theme/OP_Profile/02-media.php:128
+msgid "Ajouter les différentes photos de votre Portfolio"
+msgstr "Adding the different photos of your protfolio"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/02-media.php:109
+msgid "Ajouter les medias"
+msgstr "Add media"
+
+#: inc/options-theme/OP_Profile/02-media.php:199
+#: inc/options-theme/OP_Profile/02-media.php:216
+#: inc/options-theme/OP_Profile/02-media.php:233
+msgid "Aperçu :"
+msgstr "Preview :"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/01-personalDetails.php:120
+msgid "Date de naissance"
+msgstr ""
+"Date of birth\n"
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/01-personalDetails.php:105
+msgid "Détails personnels"
+msgstr ""
+"Personal details\n"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/01-personalDetails.php:157
+msgid "Email"
+msgstr ""
+"Email\n"
+
+#. Author of the theme
+msgid "Enza Lombardo"
+msgstr ""
+"Enza Lombardo\n"
+
+#. Author URI of the theme
+msgid "https://enzalombardo.be"
+msgstr ""
+"https://enzalombardo.be\n"
+
+#. URI of the theme
+msgid "https://enzawebdev.be/"
+msgstr ""
+"https://enzawebdev.be/\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:291
+msgid "La localité"
+msgstr "The location"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/01-personalDetails.php:150
+msgid "Localité"
+msgstr ""
+"Location\n"
+
+#: inc/options-theme/OP_Profile/02-media.php:214
+#: inc/options-theme/OP_Profile/02-media.php:218
+msgid "Ma photo d'avatar"
+msgstr "My avatar photo"
+
+#: inc/options-theme/OP_Profile/02-media.php:197
+#: inc/options-theme/OP_Profile/02-media.php:201
+msgid "Ma photo de profile"
+msgstr "My profile picture"
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/01-personalDetails.php:142
+msgid "Mes coordonnés"
+msgstr ""
+"My coordinates\n"
+
+#. slug parent
+#. page_title
+#: inc/options-theme/OP_Profile/02-media.php:55
+#: inc/options-theme/OP_Profile/02-media.php:56
+#: inc/options-theme/OP_Profile/02-media.php:69
+msgid "Mes médias"
+msgstr "My media"
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/02-media.php:101
+msgid "Mes photos"
+msgstr "My photos"
+
+#: inc/options-theme/OP_Profile/02-media.php:231
+#: inc/options-theme/OP_Profile/02-media.php:235
+msgid "Mon logo"
+msgstr "My logo"
+
+#. TITLE_PAGE
+#: inc/options-theme/OP_Profile/01-personalDetails.php:57
+#: inc/options-theme/OP_Profile/01-personalDetails.php:58
+#: inc/options-theme/OP_Profile/01-personalDetails.php:73
+msgid "Mon profile"
+msgstr ""
+"My Profile\n"
+
+#. Name of the theme
+msgid "My Portfolio 2022"
+msgstr ""
+"My Portfolio 2022\n"
+
+#. Description of the theme
+msgid "My Portfolio online"
+msgstr ""
+"My Portfolio online\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:258
+msgid "Nom"
+msgstr ""
+"Name\n"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/01-personalDetails.php:113
+msgid "Nom complet"
+msgstr ""
+"Full Name\n"
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/01-personalDetails.php:187
+msgid "Poste"
+msgstr ""
+"Job title\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:265
+msgid "Prénom"
+msgstr "First name"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:223
+msgid "Section dédiée aux informations de contact"
+msgstr ""
+"Section dedicated to contact information\n"
+"\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:214
+msgid "Section dédiée aux informations personnels"
+msgstr ""
+"Section dedicated to personal information\n"
+"\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:232
+msgid "Section dédiée à la traduction du post"
+msgstr ""
+"Section dedicated to the translation of the post\n"
+"\n"
+
+#: inc/options-theme/OP_Profile/02-media.php:71
+msgid ""
+"Sur cette page vous pouvez gérer les différents médias de votre portfolio"
+msgstr "On this page you can manage the different media in your portfolio"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:75
+msgid "Sur cette page vous pouvez gérer vos inforation personnel"
+msgstr ""
+"On this page you can manage your personal information\n"
+"\n"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/01-personalDetails.php:195
+msgid "Titre du job"
+msgstr ""
+"Job title\n"
+"\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:352
+msgid "Titre du poste en anglais"
+msgstr ""
+"Job title in English\n"
+"\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:340
+msgid "Titre du poste en français"
+msgstr ""
+"Job title in French\n"
+"\n"
+
+#: inc/options-theme/OP_Profile/01-personalDetails.php:364
+msgid "Titre du poste en italien"
+msgstr "Job title in Italian"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/01-personalDetails.php:164
+msgid "Téléphone"
+msgstr ""
+"Phone\n"
+"\n"
