@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-18 22:03+0000\n"
-"PO-Revision-Date: 2022-09-19 15:01+0000\n"
+"PO-Revision-Date: 2022-09-19 14:49+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: inc/options-theme/OP_Profile/04-aboutme.php:57
 #: inc/options-theme/OP_Profile/04-aboutme.php:58
 msgid "About me"
-msgstr "About me"
+msgstr ""
 
 #: inc/options-theme/OP_Profile/02-media.php:128
 msgid "Ajouter les différentes photos de votre Portfolio"
@@ -51,11 +51,11 @@ msgstr "Check and add the URL of your social networks"
 #: inc/options-theme/OP_Profile/05-curriculum.php:56
 #: inc/options-theme/OP_Profile/05-curriculum.php:57
 msgid "Curriculum"
-msgstr "Curriculum"
+msgstr ""
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:70
 msgid "Curriculum Vitae"
-msgstr "Curriculum Vitae"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:120
@@ -90,18 +90,16 @@ msgstr ""
 #: inc/options-theme/OP_Profile/04-aboutme.php:216
 msgid "Gestion de la section en anglais"
 msgstr ""
-"Management of the English section\n"
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:181
 #: inc/options-theme/OP_Profile/04-aboutme.php:208
 msgid "Gestion de la section en français"
 msgstr ""
-"Management of the French section\n"
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:197
 #: inc/options-theme/OP_Profile/04-aboutme.php:224
 msgid "Gestion de la section en italien"
-msgstr "Management of the Italian section"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:149
@@ -124,7 +122,7 @@ msgstr ""
 #: inc/options-theme/OP_Profile/05-curriculum.php:137
 #: inc/options-theme/OP_Profile/05-curriculum.php:164
 msgid "Importer mon CV"
-msgstr "Import my CV"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:125
@@ -228,14 +226,14 @@ msgstr ""
 #: inc/options-theme/OP_Profile/04-aboutme.php:154
 #: inc/options-theme/OP_Profile/04-aboutme.php:190
 msgid "Parler de sois"
-msgstr "Talk about yourself"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/04-aboutme.php:111
 #: inc/options-theme/OP_Profile/04-aboutme.php:147
 #: inc/options-theme/OP_Profile/04-aboutme.php:183
 msgid "Petit intro"
-msgstr "Short introduction"
+msgstr ""
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:187
@@ -251,18 +249,16 @@ msgstr "First name"
 #: inc/options-theme/OP_Profile/04-aboutme.php:139
 msgid "Qui suis-je ? (en anglais)"
 msgstr ""
-"Who I am (in English)\n"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/04-aboutme.php:103
 msgid "Qui suis-je ? (en français)"
 msgstr ""
-"Who I am (in French)\n"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/04-aboutme.php:175
 msgid "Qui suis-je ? (en italien)"
-msgstr "Who I am (in Italian)"
+msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:223
 msgid "Section dédiée aux informations de contact"
@@ -286,18 +282,16 @@ msgstr ""
 #: inc/options-theme/OP_Profile/05-curriculum.php:129
 msgid "Section en anglais"
 msgstr ""
-"English section\n"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/05-curriculum.php:102
 msgid "Section en français"
 msgstr ""
-"French section\n"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/05-curriculum.php:156
 msgid "Section en italien"
-msgstr "Italian section"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:157
@@ -321,11 +315,11 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:72
 msgid "Sur cette page, vous pouvez gérer l'import de votre CV"
-msgstr "On this page you can manage the import of your CV"
+msgstr ""
 
 #: inc/options-theme/OP_Profile/04-aboutme.php:73
 msgid "Sur cette page, vous pouvez parler de vous"
-msgstr "On this page you can talk about yourself"
+msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:195
@@ -364,4 +358,4 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/04-aboutme.php:71
 msgid "À propos de moi"
-msgstr "About me"
+msgstr ""

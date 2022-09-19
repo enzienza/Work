@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-19 10:46+0000\n"
+"POT-Creation-Date: 2022-09-19 14:47+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -15,6 +15,13 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: MyWork"
+
+#. slug parent
+#. page_title
+#: inc/options-theme/OP_Profile/04-aboutme.php:57
+#: inc/options-theme/OP_Profile/04-aboutme.php:58
+msgid "About me"
+msgstr ""
 
 #: inc/options-theme/OP_Profile/02-media.php:128
 msgid "Ajouter les différentes photos de votre Portfolio"
@@ -38,6 +45,17 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/03-network.php:187
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
+msgstr ""
+
+#. slug parent
+#. page_title
+#: inc/options-theme/OP_Profile/05-curriculum.php:56
+#: inc/options-theme/OP_Profile/05-curriculum.php:57
+msgid "Curriculum"
+msgstr ""
+
+#: inc/options-theme/OP_Profile/05-curriculum.php:70
+msgid "Curriculum Vitae"
 msgstr ""
 
 #. SLUG_FIELD
@@ -64,6 +82,21 @@ msgstr ""
 msgid "Facebook"
 msgstr ""
 
+#: inc/options-theme/OP_Profile/05-curriculum.php:189
+#: inc/options-theme/OP_Profile/04-aboutme.php:216
+msgid "Gestion de la section en anglais"
+msgstr ""
+
+#: inc/options-theme/OP_Profile/05-curriculum.php:181
+#: inc/options-theme/OP_Profile/04-aboutme.php:208
+msgid "Gestion de la section en français"
+msgstr ""
+
+#: inc/options-theme/OP_Profile/05-curriculum.php:197
+#: inc/options-theme/OP_Profile/04-aboutme.php:224
+msgid "Gestion de la section en italien"
+msgstr ""
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:149
 msgid "GitHub"
@@ -75,6 +108,13 @@ msgstr ""
 
 #. URI of the theme
 msgid "https://enzawebdev.be/"
+msgstr ""
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/05-curriculum.php:110
+#: inc/options-theme/OP_Profile/05-curriculum.php:137
+#: inc/options-theme/OP_Profile/05-curriculum.php:164
+msgid "Importer mon CV"
 msgstr ""
 
 #. SLUG_FIELD
@@ -166,6 +206,20 @@ msgstr ""
 msgid "Nom complet"
 msgstr ""
 
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/04-aboutme.php:118
+#: inc/options-theme/OP_Profile/04-aboutme.php:154
+#: inc/options-theme/OP_Profile/04-aboutme.php:190
+msgid "Parler de sois"
+msgstr ""
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_Profile/04-aboutme.php:111
+#: inc/options-theme/OP_Profile/04-aboutme.php:147
+#: inc/options-theme/OP_Profile/04-aboutme.php:183
+msgid "Petit intro"
+msgstr ""
+
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:187
 msgid "Poste"
@@ -173,6 +227,21 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:265
 msgid "Prénom"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/04-aboutme.php:139
+msgid "Qui suis-je ? (en anglais)"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/04-aboutme.php:103
+msgid "Qui suis-je ? (en français)"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/04-aboutme.php:175
+msgid "Qui suis-je ? (en italien)"
 msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:223
@@ -185,6 +254,21 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:232
 msgid "Section dédiée à la traduction du post"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/05-curriculum.php:129
+msgid "Section en anglais"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/05-curriculum.php:102
+msgid "Section en français"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_Profile/05-curriculum.php:156
+msgid "Section en italien"
 msgstr ""
 
 #. SLUG_FIELD
@@ -203,6 +287,14 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:75
 msgid "Sur cette page vous pouvez gérer vos inforation personnel"
+msgstr ""
+
+#: inc/options-theme/OP_Profile/05-curriculum.php:72
+msgid "Sur cette page, vous pouvez gérer l'import de votre CV"
+msgstr ""
+
+#: inc/options-theme/OP_Profile/04-aboutme.php:73
+msgid "Sur cette page, vous pouvez parler de vous"
 msgstr ""
 
 #. SLUG_FIELD
@@ -230,4 +322,8 @@ msgstr ""
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:164
 msgid "Téléphone"
+msgstr ""
+
+#: inc/options-theme/OP_Profile/04-aboutme.php:71
+msgid "À propos de moi"
 msgstr ""
