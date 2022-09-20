@@ -8,19 +8,19 @@
  * @since 1.0.0
  */
 
-/**
- * Table of Contents:
- *
- * 1 - DEFINIR LES ELEMENTS (repeter)
- * 2 - DEFINIR LES HOOKS ACTIONS
- * 3 - CONSTRUCTION DE LA PAGE
- * 4 - TEMPLATE DES PAGES
- * 5 - ENREGISTRER LES PARAMETTRES D'OPTIONS
- * 6 - DEFINIR LES SECTIONS DE LA PAGE
- * 7 - DEFINIR LE TELECHARGEMENT DES FICHIER
- * 8 - DEFINIR LES CHAMPS POUR RECUPERER LES INFOS
- * 9 - AJOUT STYLE & SCRIPT
- */
+/* ---------------------------------------------------------
+>>>  TABLE OF CONTENTS:
+------------------------------------------------------------
+  1 - DEFINIR LES ELEMENTS (repeter)
+  2 - DEFINIR LES HOOKS ACTIONS
+  3 - CONSTRUCTION DE LA PAGE
+  4 - TEMPLATE DES PAGES
+  5 - ENREGISTRER LES PARAMETTRES D'OPTIONS
+  6 - DEFINIR LES SECTIONS DE LA PAGE
+  7 - DEFINIR LE TELECHARGEMENT DES FICHIER
+  8 - DEFINIR LES CHAMPS POUR RECUPERER LES INFOS
+  9 - AJOUT STYLE & SCRIPT
+----------------------------------------------------------*/
 
 class myprofil_network{
 

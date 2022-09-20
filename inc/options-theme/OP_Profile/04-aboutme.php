@@ -8,19 +8,19 @@
  * @since 1.0.0
  */
 
-/**
- * Table of Contents:
- *
- * 1 - DEFINIR LES ELEMENTS (repeter)
- * 2 - DEFINIR LES HOOKS ACTIONS
- * 3 - CONSTRUCTION DE LA PAGE
- * 4 - TEMPLATE DES PAGES
- * 5 - ENREGISTRER LES PARAMETTRES D'OPTIONS
- * 6 - DEFINIR LES SECTIONS DE LA PAGE
- * 7 - DEFINIR LE TELECHARGEMENT DES FICHIER
- * 8 - DEFINIR LES CHAMPS POUR RECUPERER LES INFOS
- * 9 - AJOUT STYLE & SCRIPT
- */
+/* ---------------------------------------------------------
+>>>  TABLE OF CONTENTS:
+------------------------------------------------------------
+  1 - DEFINIR LES ELEMENTS (repeter)
+  2 - DEFINIR LES HOOKS ACTIONS
+  3 - CONSTRUCTION DE LA PAGE
+  4 - TEMPLATE DES PAGES
+  5 - ENREGISTRER LES PARAMETTRES D'OPTIONS
+  6 - DEFINIR LES SECTIONS DE LA PAGE
+  7 - DEFINIR LE TELECHARGEMENT DES FICHIER
+  8 - DEFINIR LES CHAMPS POUR RECUPERER LES INFOS
+  9 - AJOUT STYLE & SCRIPT
+----------------------------------------------------------*/
 
 class myprofil_aboutme{
 
@@ -108,7 +108,7 @@ class myprofil_aboutme{
         // 2. Ajouter les éléments du formulaire
         add_settings_field(
             'short_aboutme_fr',                     // SLUG_FIELD
-            __('Petit intro', 'MyWork'),               // LABEL
+            __('Petite intro', 'MyWork'),               // LABEL
             [self::class,'field_short_aboutme_fr'],     // CALLBACK
             self::SUB_GROUP ,                    // SLUG_PAGE
             self::SECTION_FR                   // SLUG_SECTION
@@ -144,7 +144,7 @@ class myprofil_aboutme{
         // 2. Ajouter les éléments du formulaire
         add_settings_field(
             'short_aboutme_en',                     // SLUG_FIELD
-            __('Petit intro', 'MyWork'),               // LABEL
+            __('Petite intro', 'MyWork'),               // LABEL
             [self::class,'field_short_aboutme_en'],     // CALLBACK
             self::SUB_GROUP ,                    // SLUG_PAGE
             self::SECTION_EN                   // SLUG_SECTION
@@ -180,7 +180,7 @@ class myprofil_aboutme{
         // 2. Ajouter les éléments du formulaire
         add_settings_field(
             'short_aboutme_it',                     // SLUG_FIELD
-            __('Petit intro', 'MyWork'),               // LABEL
+            __('Petite intro', 'MyWork'),               // LABEL
             [self::class,'field_short_aboutme_it'],     // CALLBACK
             self::SUB_GROUP ,                    // SLUG_PAGE
             self::SECTION_IT                   // SLUG_SECTION

@@ -11,6 +11,8 @@
 
 <?php get_header(); ?>
 
+<?php get_template_part('template-parts/components/switch-mode') ?>
+
 this is main page
 
 <?php get_footer(); ?>
