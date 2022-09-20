@@ -112,7 +112,7 @@ class mywork_mycustome{
             <!-- start tr -->
             <tr class="importer-item">
                 <td class="import-system">
-                    <span class="importer-title"><?php _e('about', "MyWork")?></span>
+                    <span class="importer-title"><?php _e('About', "MyWork")?></span>
                     <span class="importer-action">
                       <a href="?page=" class="install-now"><?php _e("Gérer la section", "MyWork"); ?></a>
                     </span>
@@ -164,7 +164,7 @@ class mywork_mycustome{
                 </td>
                 <td class="desc">
                     <span class="importer-desc">
-                      <?php _e("Lien pour gérer l'affichage de la page d'erreur", "MyWork"); ?>
+                      <?php _e("Lien pour gérer la page d'erreur", "MyWork"); ?>
                     </span>
                 </td>
             </tr><!-- end tr -->

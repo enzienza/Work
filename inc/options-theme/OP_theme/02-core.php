@@ -276,7 +276,7 @@ class mycustome_core{
         ?>
         <div>
             <input type="checkbox" id="sidebar_network" name="sidebar_network" value="1" <?php checked(1, $sidebar_network, true); ?> />
-            <label for=""><?php _e("Cacher la section réseaux sociaux de la sidebar", "MyWork"); ?></label>
+            <label for=""><?php _e("Cacher les réseaux sociaux de la sidebar", "MyWork"); ?></label>
         </div>
         <?php
     }

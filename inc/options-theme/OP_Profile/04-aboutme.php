@@ -108,7 +108,7 @@ class myprofil_aboutme{
         // 2. Ajouter les éléments du formulaire
         add_settings_field(
             'short_aboutme_fr',                     // SLUG_FIELD
-            __('Petit intro', 'MyWork'),               // LABEL
+            __('Petite intro', 'MyWork'),               // LABEL
             [self::class,'field_short_aboutme_fr'],     // CALLBACK
             self::SUB_GROUP ,                    // SLUG_PAGE
             self::SECTION_FR                   // SLUG_SECTION
@@ -144,7 +144,7 @@ class myprofil_aboutme{
         // 2. Ajouter les éléments du formulaire
         add_settings_field(
             'short_aboutme_en',                     // SLUG_FIELD
-            __('Petit intro', 'MyWork'),               // LABEL
+            __('Petite intro', 'MyWork'),               // LABEL
             [self::class,'field_short_aboutme_en'],     // CALLBACK
             self::SUB_GROUP ,                    // SLUG_PAGE
             self::SECTION_EN                   // SLUG_SECTION
@@ -180,7 +180,7 @@ class myprofil_aboutme{
         // 2. Ajouter les éléments du formulaire
         add_settings_field(
             'short_aboutme_it',                     // SLUG_FIELD
-            __('Petit intro', 'MyWork'),               // LABEL
+            __('Petite intro', 'MyWork'),               // LABEL
             [self::class,'field_short_aboutme_it'],     // CALLBACK
             self::SUB_GROUP ,                    // SLUG_PAGE
             self::SECTION_IT                   // SLUG_SECTION
