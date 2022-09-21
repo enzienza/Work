@@ -13,6 +13,18 @@
 
 <?php get_template_part('template-parts/components/switch-mode') ?>
 
-this is main page
+<!-- START : MAIN -->
+
+<?php
+/** ==================================================================
+ * 01 - HOME SECTION
+ * @desc Display home-section if "hero_hidden_section" is not checked
+ */
+    if(checked(1, get_option('hero_hidden_section'), false)) : else :
+        get_template_part('template-parts/section/home/index', 'home');
+    endif;
+?>
+
+<!-- END : MAIN -->
 
 <?php get_footer(); ?>
