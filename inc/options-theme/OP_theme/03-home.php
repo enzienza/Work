@@ -218,7 +218,7 @@ class mycustome_home{
         // 1. Créer la section
         add_settings_section(
             self::HERO_ABOUT,                 // SLUG_SECTION
-            __('about', 'MyWork'),         // TITLE
+            __('About', 'MyWork'),         // TITLE
             [self::class, 'display_section_hero_about'],  // CALLBACK
             self::SUB_GROUP                         // SLUG_PAGE
         );
