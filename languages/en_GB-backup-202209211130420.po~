@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-18 22:03+0000\n"
-"PO-Revision-Date: 2022-09-19 15:01+0000\n"
+"POT-Creation-Date: 2022-09-19 17:46+0000\n"
+"PO-Revision-Date: 2022-09-20 22:14+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -14,6 +14,14 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.6.2; wp-6.0.2\n"
 "X-Domain: MyWork"
+
+#: inc/options-theme/OP_theme/02-core.php:305
+msgid "\"name-Theme\" © 2022 | Created by Enza Lombardo"
+msgstr "\"name-Theme\" © 2022 | Created by Enza Lombardo"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:115
+msgid "About"
+msgstr "About"
 
 #. slug parent
 #. page_title
@@ -31,20 +39,95 @@ msgstr "Adding the different photos of your protfolio"
 msgid "Ajouter les medias"
 msgstr "Add media"
 
+#: template-parts/footer/copyright.php:20
+msgid "All rights reserved"
+msgstr "All rights reserved"
+
 #: inc/options-theme/OP_Profile/02-media.php:199
 #: inc/options-theme/OP_Profile/02-media.php:216
 #: inc/options-theme/OP_Profile/02-media.php:233
 msgid "Aperçu :"
-msgstr "Preview :"
+msgstr "Overview :"
+
+#: inc/options-theme/OP_theme/02-core.php:265
+msgid "Avatar"
+msgstr "Avatar"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:141
 msgid "Behance"
 msgstr "Behance"
 
+#: inc/options-theme/OP_theme/02-core.php:223
+msgid "Cacher la section utilisateur de la sidebar"
+msgstr "Hide the user section of the sidebar"
+
+#: inc/options-theme/OP_theme/02-core.php:279
+msgid "Cacher les réseaux sociaux de la sidebar"
+msgstr "Hide social networks from the sidebar"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/02-core.php:117
+msgid "Ce qui doit être présent"
+msgstr "What should be present\"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/02-core.php:124
+msgid "Choisir l'image"
+msgstr "Choose the image"
+
+#: inc/options-theme/OP_theme/02-core.php:302
+msgid "Choisir le format du copyright à afficher"
+msgstr "Choose the format of the copyright to display"
+
+#: inc/options-theme/OP_theme/02-core.php:288
+msgid "Choisir le type de footer à afficher"
+msgstr "Choose the type of footer to display"
+
+#: inc/options-theme/OP_theme/02-core.php:317
+msgid ""
+"Choisir les mentions légals à afficher | Uniquement si Partie légale est "
+"coché"
+msgstr "Choose the legal notice to display | Only if the legal part is checked\"
+
+#: inc/options-theme/OP_theme/02-core.php:233
+msgid "Cocher ce qui doit être présent"
+msgstr "Check what should be present"
+
 #: inc/options-theme/OP_Profile/03-network.php:187
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
 msgstr "Check and add the URL of your social networks"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:145
+msgid "Contact"
+msgstr "Contact"
+
+#: template-parts/footer/legal.php:37 template-parts/footer/legal.php:41
+#: template-parts/footer/legal.php:45
+#: inc/options-theme/OP_theme/02-core.php:324
+msgid "Cookies"
+msgstr "Cookies"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/02-core.php:171
+msgid "Copyright"
+msgstr "Copyright"
+
+#: inc/options-theme/OP_theme/02-core.php:295
+msgid "Copyright + Partie légale"
+msgstr "Copyright + legal part"
+
+#: inc/options-theme/OP_theme/02-core.php:309
+msgid "Copyright ©  2022 Enza | All rights reserved"
+msgstr "Copyright © 2022 Enza | All rights reserved"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:85
+msgid "Core"
+msgstr "Core"
+
+#: template-parts/footer/copyright.php:15
+msgid "Created by"
+msgstr "Created by"
 
 #. slug parent
 #. page_title
@@ -57,46 +140,47 @@ msgstr "Curriculum"
 msgid "Curriculum Vitae"
 msgstr "Curriculum Vitae"
 
+#: inc/options-theme/OP_theme/02-core.php:203
+msgid "Dans cette section, vous pouvez gérer tous les éléments du footer"
+msgstr "In this section you can manage the footer elements"
+
+#: inc/options-theme/OP_theme/02-core.php:197
+msgid "Dans cette section, vous pouvez gérer tous les éléments du header"
+msgstr "In this section you can manage the elements of the header"
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:120
 msgid "Date de naissance"
-msgstr ""
-"Date of birth\n"
+msgstr "Date of birth"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:105
 msgid "Détails personnels"
-msgstr ""
-"Personal details\n"
+msgstr "Personal details"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:157
 msgid "Email"
-msgstr ""
-"Email\n"
+msgstr "Email"
 
 #. Author of the theme
 msgid "Enza Lombardo"
-msgstr ""
-"Enza Lombardo\n"
+msgstr "Enza Lombardo"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:109
 msgid "Facebook"
-msgstr ""
-"Facebook\n"
+msgstr "Facebook"
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:189
 #: inc/options-theme/OP_Profile/04-aboutme.php:216
 msgid "Gestion de la section en anglais"
-msgstr ""
-"Management of the English section\n"
+msgstr "Management of the English section"
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:181
 #: inc/options-theme/OP_Profile/04-aboutme.php:208
 msgid "Gestion de la section en français"
-msgstr ""
-"Management of the French section\n"
+msgstr "Management of the French section"
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:197
 #: inc/options-theme/OP_Profile/04-aboutme.php:224
@@ -106,18 +190,38 @@ msgstr "Management of the Italian section"
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:149
 msgid "GitHub"
-msgstr ""
-"GitHub\n"
+msgstr "GitHub"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:87
+#: inc/options-theme/OP_theme/01-customTheme.php:102
+#: inc/options-theme/OP_theme/01-customTheme.php:117
+#: inc/options-theme/OP_theme/01-customTheme.php:132
+#: inc/options-theme/OP_theme/01-customTheme.php:147
+#: inc/options-theme/OP_theme/01-customTheme.php:162
+msgid "Gérer la section"
+msgstr "Manage the section"
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_theme/02-core.php:156
+msgid "Gérer le footer"
+msgstr "Manage footer"
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_theme/02-core.php:102
+msgid "Gérer le header"
+msgstr "Manage header"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:100
+msgid "Home"
+msgstr "Home"
 
 #. Author URI of the theme
 msgid "https://enzalombardo.be"
-msgstr ""
-"https://enzalombardo.be\n"
+msgstr "https://enzalombardo.be"
 
 #. URI of the theme
-msgid "https://enzawebdev.be/"
-msgstr ""
-"https://enzawebdev.be/\n"
+msgid "https://enzawebdev.be"
+msgstr "https://enzawebdev.be"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/05-curriculum.php:110
@@ -129,12 +233,39 @@ msgstr "Import my CV"
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:125
 msgid "Instagram"
-msgstr ""
-"Instagram\n"
+msgstr "Instagram"
+
+#: inc/options-theme/OP_theme/02-core.php:245
+msgid "Job"
+msgstr "Job"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:291
 msgid "La localité"
-msgstr "The location"
+msgstr "The locality"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:92
+msgid "Lien pour gérer l'affichage de l'header et du footer"
+msgstr "Link to manage the header and footer display"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:167
+msgid "Lien pour gérer la page d'erreur"
+msgstr "Link to manage the error page"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:152
+msgid "Lien pour gérer la section contact"
+msgstr "Link to manage the contact section"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:107
+msgid "Lien pour gérer la section de l'home"
+msgstr "Link to manage the home section"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:122
+msgid "Lien pour gérer la section l'about"
+msgstr "Link to manage the about section"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:137
+msgid "Lien pour gérer la section portfolio"
+msgstr "ink to manage the portfolio section"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:133
@@ -144,24 +275,32 @@ msgstr "LinkedIn"
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:150
 msgid "Localité"
-msgstr ""
-"Location\n"
+msgstr "Locality"
+
+#: inc/options-theme/OP_theme/02-core.php:269
+msgid "Logo"
+msgstr "Logo"
 
 #: inc/options-theme/OP_Profile/02-media.php:214
 #: inc/options-theme/OP_Profile/02-media.php:218
 msgid "Ma photo d'avatar"
-msgstr "My avatar photo"
+msgstr "My avatar picture"
 
 #: inc/options-theme/OP_Profile/02-media.php:197
 #: inc/options-theme/OP_Profile/02-media.php:201
 msgid "Ma photo de profile"
 msgstr "My profile picture"
 
+#: template-parts/footer/legal.php:18 template-parts/footer/legal.php:22
+#: template-parts/footer/legal.php:26
+#: inc/options-theme/OP_theme/02-core.php:320
+msgid "Mentions légales"
+msgstr "Legal notice"
+
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:142
 msgid "Mes coordonnés"
-msgstr ""
-"My coordinates\n"
+msgstr "My contact details"
 
 #. slug parent
 #. page_title
@@ -169,12 +308,12 @@ msgstr ""
 #: inc/options-theme/OP_Profile/02-media.php:56
 #: inc/options-theme/OP_Profile/02-media.php:69
 msgid "Mes médias"
-msgstr "My media"
+msgstr "My details"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/02-media.php:101
 msgid "Mes photos"
-msgstr "My photos"
+msgstr "My pictures"
 
 #. slug parent
 #. page_title
@@ -199,29 +338,39 @@ msgstr "My logo"
 #: inc/options-theme/OP_Profile/01-personalDetails.php:58
 #: inc/options-theme/OP_Profile/01-personalDetails.php:73
 msgid "Mon profile"
-msgstr ""
-"My Profile\n"
+msgstr "My profile"
+
+#. TITLE_PAGE
+#: inc/options-theme/OP_theme/01-customTheme.php:57
+#: inc/options-theme/OP_theme/01-customTheme.php:58
+msgid "Mon thème"
+msgstr "My theme"
 
 #. Name of the theme
 msgid "My Portfolio 2022"
-msgstr ""
-"My Portfolio 2022\n"
+msgstr "My Portfolio 2022"
 
 #. Description of the theme
 msgid "My Portfolio online"
-msgstr ""
-"My Portfolio online\n"
+msgstr "My Portfolio online"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:258
+#: inc/options-theme/OP_theme/02-core.php:237
 msgid "Nom"
-msgstr ""
-"Name\n"
+msgstr "Name (Last name)"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:113
 msgid "Nom complet"
-msgstr ""
-"Full Name\n"
+msgstr "Full name"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:160
+msgid "Page d'erreur"
+msgstr "Error page"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:73
+msgid "Page d'option du theme"
+msgstr "Theme option page"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/04-aboutme.php:118
@@ -231,33 +380,48 @@ msgid "Parler de sois"
 msgstr "Talk about yourself"
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/02-core.php:178
+msgid "Partie légale"
+msgstr "Legal section"
+
+#. SLUG_FIELD
 #: inc/options-theme/OP_Profile/04-aboutme.php:111
 #: inc/options-theme/OP_Profile/04-aboutme.php:147
 #: inc/options-theme/OP_Profile/04-aboutme.php:183
-msgid "Petit intro"
+msgid "Petite intro"
 msgstr "Short introduction"
+
+#: inc/options-theme/OP_theme/02-core.php:249
+msgid "Photo"
+msgstr "Picture"
+
+#: inc/options-theme/OP_theme/01-customTheme.php:130
+msgid "Portfolio"
+msgstr "Portfolio"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:187
 msgid "Poste"
-msgstr ""
-"Job title\n"
+msgstr "Job"
+
+#: inc/options-theme/OP_theme/02-core.php:261
+msgid "Profil"
+msgstr "Profile"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:265
+#: inc/options-theme/OP_theme/02-core.php:241
 msgid "Prénom"
 msgstr "First name"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/04-aboutme.php:139
 msgid "Qui suis-je ? (en anglais)"
-msgstr ""
-"Who I am (in English)\n"
+msgstr "Who I am (in English)"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/04-aboutme.php:103
 msgid "Qui suis-je ? (en français)"
-msgstr ""
-"Who I am (in French)\n"
+msgstr "Who I am (in French)"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/04-aboutme.php:175
@@ -266,38 +430,40 @@ msgstr "Who I am (in Italian)"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:223
 msgid "Section dédiée aux informations de contact"
-msgstr ""
-"Section dedicated to contact information\n"
-"\n"
+msgstr "Section dedicated to contact information"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:214
 msgid "Section dédiée aux informations personnels"
-msgstr ""
-"Section dedicated to personal information\n"
-"\n"
+msgstr "Section dedicated to personal information"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:232
 msgid "Section dédiée à la traduction du post"
-msgstr ""
-"Section dedicated to the translation of the post\n"
-"\n"
+msgstr "Section dedicated to the translation of the job"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/05-curriculum.php:129
 msgid "Section en anglais"
-msgstr ""
-"English section\n"
+msgstr "English section"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/05-curriculum.php:102
 msgid "Section en français"
-msgstr ""
-"French section\n"
+msgstr "French section"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/05-curriculum.php:156
 msgid "Section en italien"
 msgstr "Italian section"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/02-core.php:131
+msgid "Section social"
+msgstr "Social section"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/02-core.php:110
+msgid "Section utilisateur"
+msgstr "User section"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:157
@@ -309,15 +475,17 @@ msgid ""
 "Sur cette page vous pouvez gérer les différents médias de votre portfolio"
 msgstr "On this page you can manage the different media in your portfolio"
 
+#: inc/options-theme/OP_theme/01-customTheme.php:75
+msgid "Sur cette page vous pouvez gérer les différents éléments de notre theme"
+msgstr "On this page you can manage the different elements of our theme"
+
 #: inc/options-theme/OP_Profile/03-network.php:71
 msgid "Sur cette page vous pouvez gérer les url de vos réseaux sociaux"
 msgstr "On this page you can manage the URLs of your social networks"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:75
 msgid "Sur cette page vous pouvez gérer vos inforation personnel"
-msgstr ""
-"On this page you can manage your personal information\n"
-"\n"
+msgstr "On this page you can manage your personal information"
 
 #: inc/options-theme/OP_Profile/05-curriculum.php:72
 msgid "Sur cette page, vous pouvez gérer l'import de votre CV"
@@ -330,21 +498,15 @@ msgstr "On this page you can talk about yourself"
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:195
 msgid "Titre du job"
-msgstr ""
-"Job title\n"
-"\n"
+msgstr "Job title"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:352
 msgid "Titre du poste en anglais"
-msgstr ""
-"Job title in English\n"
-"\n"
+msgstr "Job title in English"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:340
 msgid "Titre du poste en français"
-msgstr ""
-"Job title in French\n"
-"\n"
+msgstr "Job title in French"
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:364
 msgid "Titre du poste en italien"
@@ -356,11 +518,22 @@ msgid "Twitter"
 msgstr "Twitter"
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/02-core.php:164
+msgid "Type"
+msgstr "Type"
+
+#. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:164
 msgid "Téléphone"
-msgstr ""
-"Phone\n"
-"\n"
+msgstr "Phone"
+
+#: inc/options-theme/OP_theme/02-core.php:291
+msgid "Uniquement le copyright"
+msgstr "Only copyright"
+
+#: inc/options-theme/OP_theme/02-core.php:257
+msgid "Uniquement si photo est chocher"
+msgstr "Only if the photo is checked"
 
 #: inc/options-theme/OP_Profile/04-aboutme.php:71
 msgid "À propos de moi"
