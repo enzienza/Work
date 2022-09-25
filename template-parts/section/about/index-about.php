@@ -9,7 +9,7 @@
  */
 ?>
 
-<div id="about" class="my-container">
+<section id="about" class="my-container">
     <div class="title-section">
         <?php require_once("title/title.php") ?>
     </div>
@@ -61,3 +61,5 @@
 
             </div>
         </div>
+    </div>
+</section>

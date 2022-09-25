@@ -9,7 +9,7 @@
  */
 ?>
 
-<div id="portfolio" class="my-container">
+<section id="portfolio" class="my-container">
     <div class="title-section">
         <?php require_once("title/title.php") ?>
     </div>
@@ -22,4 +22,4 @@
         <?php require_once("works/work.php") ?>
     </div>
 
-</div>
+</section>

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-19 17:46+0000\n"
-"PO-Revision-Date: 2022-09-25 17:18+0000\n"
+"PO-Revision-Date: 2022-09-25 22:19+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -84,6 +84,11 @@ msgstr "Show button"
 msgid "Afficher les deux"
 msgstr "Show both"
 
+#: inc/options-theme/OP_theme/06-contact.php:245
+msgid "Afficher les réseaux sociaux dans la section contact"
+msgstr "Display social networks in the contact section"
+
+#: inc/options-theme/OP_theme/06-contact.php:223
 #: inc/options-theme/OP_theme/05-works.php:266
 msgid "Afficher une description à la section"
 msgstr "Display a description in the section"
@@ -111,6 +116,8 @@ msgstr "Add background image"
 msgid "All rights reserved"
 msgstr "All rights reserved"
 
+#: inc/options-theme/OP_theme/06-contact.php:195
+#: inc/options-theme/OP_theme/06-contact.php:231
 #: inc/options-theme/OP_theme/04-about.php:331
 #: inc/options-theme/OP_theme/04-about.php:468
 #: inc/options-theme/OP_theme/04-about.php:491
@@ -158,6 +165,7 @@ msgid "Belgique"
 msgstr "Belgium"
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/06-contact.php:108
 #: inc/options-theme/OP_theme/04-about.php:111
 #: inc/options-theme/OP_theme/05-works.php:110
 #: inc/options-theme/OP_theme/03-home.php:113
@@ -203,6 +211,7 @@ msgstr ""
 msgid "Cette partie vous permet de gérer l'affichage de la bannière"
 msgstr "This part allows you to manage the display of the banner"
 
+#: inc/options-theme/OP_theme/06-contact.php:156
 #: inc/options-theme/OP_theme/04-about.php:273
 #: inc/options-theme/OP_theme/05-works.php:188
 msgid "Cette partie vous permet de gérer l'affichage de la section"
@@ -292,7 +301,11 @@ msgstr "Check and add the URL of your social networks"
 msgid "Compteur"
 msgstr "Counter"
 
+#. slug parent
+#. page_title
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/06-contact.php:55
+#: inc/options-theme/OP_theme/06-contact.php:56
 #: inc/options-theme/OP_theme/01-customTheme.php:145
 #: inc/options-theme/OP_theme/04-about.php:239
 #: inc/options-theme/OP_theme/03-home.php:270
@@ -360,6 +373,7 @@ msgid "Date de naissance"
 msgstr "Date of birth"
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/06-contact.php:122
 #: inc/options-theme/OP_theme/05-works.php:124
 msgid "Description section"
 msgstr "Section description"
@@ -381,6 +395,7 @@ msgstr "Download CV"
 msgid "Définir le design"
 msgstr "Define design"
 
+#: inc/options-theme/OP_theme/06-contact.php:183
 #: inc/options-theme/OP_theme/04-about.php:319
 #: inc/options-theme/OP_theme/05-works.php:225
 msgid "Définir le titre de la section"
@@ -431,6 +446,8 @@ msgstr "Format"
 msgid "Formations réalisées"
 msgstr "Courses completed"
 
+#: inc/options-theme/OP_theme/06-contact.php:186
+#: inc/options-theme/OP_theme/06-contact.php:227
 #: inc/options-theme/OP_theme/04-about.php:322
 #: inc/options-theme/OP_theme/04-about.php:464
 #: inc/options-theme/OP_theme/04-about.php:487
@@ -479,6 +496,7 @@ msgid "Gérer la boucle"
 msgstr "Managing the loop"
 
 #. SLUG_SECTION
+#: inc/options-theme/OP_theme/06-contact.php:101
 #: inc/options-theme/OP_theme/01-customTheme.php:87
 #: inc/options-theme/OP_theme/01-customTheme.php:102
 #: inc/options-theme/OP_theme/01-customTheme.php:117
@@ -542,6 +560,8 @@ msgstr "Instagram"
 msgid "Intro"
 msgstr "Introduction"
 
+#: inc/options-theme/OP_theme/06-contact.php:204
+#: inc/options-theme/OP_theme/06-contact.php:235
 #: inc/options-theme/OP_theme/04-about.php:340
 #: inc/options-theme/OP_theme/04-about.php:472
 #: inc/options-theme/OP_theme/04-about.php:495
@@ -645,6 +665,10 @@ msgstr "My profile picture"
 #: inc/options-theme/OP_theme/04-about.php:311
 msgid "Masquer la section about du thème"
 msgstr "Hide the about section of the theme"
+
+#: inc/options-theme/OP_theme/06-contact.php:175
+msgid "Masquer la section contact du thème"
+msgstr "Hide the contact section of the theme"
 
 #: inc/options-theme/OP_theme/03-home.php:360
 msgid "Masquer la section home du thème"
@@ -807,6 +831,10 @@ msgstr "Left part"
 msgid "Partie légale"
 msgstr "Legal section"
 
+#: inc/options-theme/OP_theme/06-contact.php:69
+msgid "Personnaliser contact"
+msgstr "Customise contact"
+
 #: inc/options-theme/OP_theme/04-about.php:72
 msgid "Personnaliser l'about"
 msgstr "Customize about"
@@ -911,6 +939,11 @@ msgstr "Who I am (in Italian)"
 msgid "Repositories GitHub"
 msgstr "Repositories GitHub"
 
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/06-contact.php:129
+msgid "Réseaux sociaux"
+msgstr "Social networks"
+
 #: inc/options-theme/OP_theme/03-home.php:402
 msgid "Salutation en 1 ligne"
 msgstr "Greeting in 1 line"
@@ -986,6 +1019,10 @@ msgstr "On this page you can manage the about section of the site"
 msgid "Sur cette page vous pouvez gérer la section accueil du site"
 msgstr "On this page you can manage the home section of the site"
 
+#: inc/options-theme/OP_theme/06-contact.php:71
+msgid "Sur cette page vous pouvez gérer la section contact du site"
+msgstr "On this page you can manage the contact section of the site"
+
 #: inc/options-theme/OP_theme/05-works.php:72
 msgid "Sur cette page vous pouvez gérer la section work du site"
 msgstr "On this page you can manage the works section of the site"
@@ -1015,6 +1052,8 @@ msgstr "On this page you can manage the import of your CV"
 msgid "Sur cette page, vous pouvez parler de vous"
 msgstr "On this page you can talk about yourself"
 
+#: inc/options-theme/OP_theme/06-contact.php:200
+#: inc/options-theme/OP_theme/06-contact.php:232
 #: inc/options-theme/OP_theme/04-about.php:336
 #: inc/options-theme/OP_theme/05-works.php:242
 #: inc/options-theme/OP_theme/05-works.php:275
@@ -1025,6 +1064,8 @@ msgstr "On this page you can talk about yourself"
 msgid "Texte en anglais"
 msgstr "Text in English"
 
+#: inc/options-theme/OP_theme/06-contact.php:191
+#: inc/options-theme/OP_theme/06-contact.php:228
 #: inc/options-theme/OP_theme/04-about.php:327
 #: inc/options-theme/OP_theme/05-works.php:233
 #: inc/options-theme/OP_theme/05-works.php:271
@@ -1035,6 +1076,8 @@ msgstr "Text in English"
 msgid "Texte en français"
 msgstr "ext in French"
 
+#: inc/options-theme/OP_theme/06-contact.php:209
+#: inc/options-theme/OP_theme/06-contact.php:236
 #: inc/options-theme/OP_theme/04-about.php:345
 #: inc/options-theme/OP_theme/05-works.php:251
 #: inc/options-theme/OP_theme/05-works.php:279
@@ -1063,6 +1106,7 @@ msgid "Titre du poste en italien"
 msgstr "Job title in Italian"
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/06-contact.php:115
 #: inc/options-theme/OP_theme/04-about.php:118
 #: inc/options-theme/OP_theme/05-works.php:117
 msgid "Titre section"
