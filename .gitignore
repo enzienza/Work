@@ -227,11 +227,4 @@ fabric.properties
 .idea/
 
 ### BACKUP LANGUAGES
-languages/en_GB-backup-202209191635010.po~
-languages/en_GB-backup-202209231508040.po~
-languages/fr_FR-backup-202209202211020.po~
-languages/MyWork-backup-202209231505490.pot~
-languages/MyWork-backup-202209202130430.pot~
-languages/fr_FR-backup-202209231506230.po~
-languages/it_IT-backup-202209231509220.po~
-languages/it_IT-backup-202209191639310.po~
+languages/*.pot~
