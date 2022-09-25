@@ -228,4 +228,4 @@ fabric.properties
 
 ### BACKUP LANGUAGES
 languages/*.pot~
-*.po~
+languages/*.po~
