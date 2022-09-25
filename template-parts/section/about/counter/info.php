@@ -19,7 +19,7 @@
                 echo $myExperience -> y;
                 ?>
             </p>
-            <p class="counter-title"><?php _e("Années d'experience", "MyWork"); ?></p>
+            <p class="counter-title"><?php _e("Années d'expérience", "MyWork"); ?></p>
         </div>
     <?php endif; ?>
 

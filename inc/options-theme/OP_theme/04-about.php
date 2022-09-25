@@ -155,7 +155,7 @@ class mycustome_about{
         // 2. Ajouter les éléments du formulaire
         add_settings_field(
             'about_personal_details',                        // SLUG_FIELD
-            __('Details personnels', 'MyWork'),  // LABEL
+            __('Détails personnels', 'MyWork'),  // LABEL
             [self::class,'field_about_personal_details'],        // CALLBACK
             self::SUB_GROUP ,                    // SLUG_PAGE
             self::ABOUT_INFO                // SLUG_SECTION
@@ -417,9 +417,9 @@ class mycustome_about{
         <ul class="ul-inline">
             <li class="description"><?php _e("Cocher ce qui doit être présent", "MyWork"); ?></li>
             <li class="darkred-600">
-                <span class="only"><?php _e('Uniquement si ', "MyWork"); ?></span>
+                <span class="only"><?php _e("Uniquement si", "MyWork"); ?></span>
                 <strong><?php _e('Détails perso', "MyWork"); ?></strong>
-                <span class="checkbox"><?php _e(' est coché', "MyWork"); ?></span>
+                <span class="checkbox"><?php _e("est coché", "MyWork"); ?></span>
             </li>
         </ul>
         <ul class="w-50 list-group">
@@ -521,7 +521,7 @@ class mycustome_about{
             </li>
             <li class="list-item">
                 <input type="radio" name="about_picture" value="2" <?php checked(2, $about_picture, true); ?> />
-                <label for=""><?php _e("Profile", "MyWork") ?></label>
+                <label for=""><?php _e("Profil", "MyWork") ?></label>
             </li>
         </ul>
         <?php
@@ -569,14 +569,14 @@ class mycustome_about{
                     <p class="general-item">
                         <span class="w-10">
                             <input type="checkbox" id="about_formations" name="about_formations" value="1" <?php checked(1, $about_formations, true); ?>  />
-                            <label for=""><?php _e("Formation réalisé", "MyWork"); ?></label>
+                            <label for=""><?php _e("Formations réalisées", "MyWork"); ?></label>
                         </span>
                         <input type="number" class="small-input" id="numb_formation" name="numb_formation" min="1" max="100" value="<?php echo $numb_formation ?>" />
                     </p>
                     <p class="general-item">
                         <span class="w-10">
                             <input type="checkbox" id="about_languanges" name="about_languanges" value="1" <?php checked(1, $about_languanges, true); ?>  />
-                            <label for=""><?php _e("Langages maitrisé", "MyWork"); ?></label>
+                            <label for=""><?php _e("Langages maîtrisés", "MyWork"); ?></label>
                         </span>
                         <input type="number" class="small-input" id="numb_languanges" name="numb_languanges" min="1" max="100" value="<?php echo $numb_languanges ?>" />
                     </p>
