@@ -1294,5 +1294,105 @@ section {
   .desc {
     margin-bottom: 1.5rem;
     font-size: small; } }
+#about {
+  margin-bottom: 4rem; }
+
+.about-grid {
+  margin: 2rem auto;
+  gap: 3rem; }
+.about-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap; }
+.about-detail {
+  margin-top: 3rem;
+  margin-bottom: 2em;
+  font-size: calc(1rem + .1vmin); }
+  .about-detail h3 {
+    padding-bottom: .5rem; }
+.about-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+.about-counter {
+  margin-top: 5rem; }
+
+.detail-title {
+  color: purple;
+  font-weight: 600;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 20%; }
+.detail-separater::before {
+  content: ":";
+  padding-right: 5px; }
+
+.counter {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  flex: 1 1 48rem; }
+  .counter-box {
+    text-align: center;
+    padding: 1rem;
+    margin: 0 1rem 2rem;
+    width: 13rem;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px; }
+  .counter-numb {
+    color: purple;
+    font-size: xxx-large;
+    font-weight: 600;
+    margin-bottom: 0; }
+  .counter-title {
+    font-size: x-large;
+    line-height: 1;
+    margin-bottom: 1rem; }
+
+@media only screen and (min-width: 480px) and (max-width: calc(768px - 1px)) {
+  .about-content {
+    margin-bottom: 3rem;
+    order: 9998; }
+  .about-image {
+    order: 1;
+    padding-bottom: 2rem; }
+  .about-counter {
+    order: 9999;
+    margin-top: 0; }
+
+  .detail-title {
+    width: 30%; }
+
+  .counter-box {
+    width: 100%;
+    margin: 0 0 2rem; } }
+@media only screen and (min-width: 320px) and (max-width: calc(480px - 1px)) {
+  .about-content {
+    margin-bottom: 3rem;
+    order: 9998; }
+  .about-image {
+    order: 1;
+    padding-bottom: 2rem; }
+  .about-counter {
+    order: 9999;
+    margin-top: 0; }
+
+  .detail-title {
+    width: 30%; }
+
+  .counter-box {
+    width: 100%;
+    margin: 0 0 2rem; } }
 
 /*# sourceMappingURL=style.css.map */

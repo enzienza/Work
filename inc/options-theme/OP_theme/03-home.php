@@ -627,7 +627,7 @@ class mycustome_home{
             </li>
             <li class="elem-item">
                 <input type="checkbox" id="hero_icon_about" name="hero_icon_about" value="1" <?php checked(1, $hero_icon_about, true); ?> />
-                <label for=""><?php _e("Afficher l'îcone", "MyWork"); ?><i class="icons flaticon-user"></i></label>
+                <label for=""><?php _e("Afficher l'icône", "MyWork"); ?><i class="icons flaticon-user"></i></label>
             </li>
         </ul>
         <?php
@@ -643,7 +643,7 @@ class mycustome_home{
             </li>
             <li class="elem-item">
                 <input type="checkbox" id="hero_icon_download" name="hero_icon_download" value="1" <?php checked(1, $hero_icon_download, true); ?> />
-                <label for=""><?php _e("Afficher l'îcone", "MyWork"); ?><i class="icons flaticon-download"></i></label>
+                <label for=""><?php _e("Afficher l'icône", "MyWork"); ?><i class="icons flaticon-download"></i></label>
             </li>
         </ul>
         <?php
@@ -659,7 +659,7 @@ class mycustome_home{
             </li>
             <li class="elem-item">
                 <input type="checkbox" id="hero_icon_contact" name="hero_icon_contact" value="1" <?php checked(1, $hero_icon_contact, true); ?> />
-                <label for=""><?php _e("Afficher l'îcone", "MyWork"); ?><i class="icons flaticon-email"></i></label>
+                <label for=""><?php _e("Afficher l'icône", "MyWork"); ?><i class="icons flaticon-email"></i></label>
             </li>
         </ul>
         <?php

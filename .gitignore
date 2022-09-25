@@ -225,3 +225,7 @@ fabric.properties
 
 ### end -> Visual Studio Code ###
 .idea/
+
+### BACKUP LANGUAGES
+languages/*.pot~
+languages/*.po~

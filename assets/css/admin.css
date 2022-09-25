@@ -37,6 +37,7 @@ Tags:
     --lighten-grey: #cecece;
     --color-succes: green;
     --color-danger: red;
+    --color-darkred: darkred;
 
 }
 
@@ -337,14 +338,55 @@ input[type="checkbox"]{
 }
 
 /* other */
-.underline-700{
+/*.underline-700{*/
+/*    text-decoration: underline;*/
+/*    font-weight: 700;*/
+/*}*/
+/*.underline-700::after{*/
+/*    content: ":";*/
+/*    padding-left: 7px;*/
+/*    padding-right: 7px;*/
+/*    display: inline-flex;*/
+/*}*/
+
+label strong{
+    font-weight: 600;
     text-decoration: underline;
-    font-weight: 700;
+    padding-left: 5px;
 }
-.underline-700::after{
-    content: ":";
-    padding-left: 7px;
-    padding-right: 7px;
+
+.darkred-600{
+    color: var(--color-darkred);
+    font-weight: 600;
+}
+
+.darkred-600 strong{
+    font-weight: 900;
+    text-decoration: underline;
+}
+
+.darkred-600 .only{
+    padding-right: 5px;
+}
+
+.darkred-600 .checkbox{
+    padding-left: 5px;
+}
+
+/*.darkred-600::before, .darkred-600::after{*/
+/*    content: "-";*/
+/*}*/
+.darkred-600::before{
+    margin-left: 20px;
+    padding-right: 5px;
+    content: "!!";
+}
+.darkred-600::after{
+    padding-left: 5px;
+    content: "!!";
+}
+
+.ul-inline{
     display: inline-flex;
 }
 

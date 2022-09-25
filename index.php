@@ -25,6 +25,16 @@
     endif;
 ?>
 
+<?php
+/** ==================================================================
+ * 02 - ABOUT SECTION
+ * @desc Display about-section if "about_hidden_section" is not checked
+ */
+    if(checked(1, get_option('about_hidden_section'), false)) : else :
+        get_template_part('template-parts/section/about/index', 'about');
+    endif;
+?>
+
 <!-- END : MAIN -->
 
 <?php get_footer(); ?>

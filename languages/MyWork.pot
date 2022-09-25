@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-09-21 11:29+0000\n"
+"POT-Creation-Date: 2022-09-25 14:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -20,9 +20,22 @@ msgstr ""
 msgid "\"name-Theme\" © 2022 | Created by Enza Lombardo"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:402
+msgid "(Photo & Compteur)"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:378
+msgid "(Qui suis-je & Détails perso)"
+msgstr ""
+
+#. slug parent
+#. page_title
 #. SLUG_SECTION
 #. SLUG_FIELD
 #: inc/options-theme/OP_theme/01-customTheme.php:115
+#: inc/options-theme/OP_theme/04-about.php:58
+#: inc/options-theme/OP_theme/04-about.php:59
+#: inc/options-theme/OP_theme/04-about.php:104
 #: inc/options-theme/OP_theme/03-home.php:221
 #: inc/options-theme/OP_theme/03-home.php:256
 msgid "About"
@@ -38,16 +51,34 @@ msgstr ""
 msgid "About me"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:362
+#: inc/options-theme/OP_theme/04-about.php:370
+#: inc/options-theme/OP_theme/04-about.php:387
+#: inc/options-theme/OP_theme/04-about.php:394
+msgid "Afficher"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:644
+#: inc/options-theme/OP_theme/04-about.php:660
+#: inc/options-theme/OP_theme/04-about.php:676
 #: inc/options-theme/OP_theme/03-home.php:630
 #: inc/options-theme/OP_theme/03-home.php:646
 #: inc/options-theme/OP_theme/03-home.php:662
-msgid "Afficher l'îcone"
+msgid "Afficher l'icône"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:640
+#: inc/options-theme/OP_theme/04-about.php:656
+#: inc/options-theme/OP_theme/04-about.php:672
 #: inc/options-theme/OP_theme/03-home.php:626
 #: inc/options-theme/OP_theme/03-home.php:642
 #: inc/options-theme/OP_theme/03-home.php:658
 msgid "Afficher le bouton"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:377
+#: inc/options-theme/OP_theme/04-about.php:401
+msgid "Afficher les deux"
 msgstr ""
 
 #: inc/options-theme/OP_theme/03-home.php:585
@@ -73,11 +104,19 @@ msgstr ""
 msgid "All rights reserved"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:331
+#: inc/options-theme/OP_theme/04-about.php:468
+#: inc/options-theme/OP_theme/04-about.php:491
 #: inc/options-theme/OP_theme/03-home.php:415
 #: inc/options-theme/OP_theme/03-home.php:462
 #: inc/options-theme/OP_theme/03-home.php:551
 #: inc/options-theme/OP_theme/03-home.php:593
 msgid "Anglais"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:565
+#: template-parts/section/about/counter/info.php:22
+msgid "Années d'expérience"
 msgstr ""
 
 #: inc/options-theme/OP_Profile/02-media.php:199
@@ -88,6 +127,7 @@ msgid "Aperçu :"
 msgstr ""
 
 #: inc/options-theme/OP_theme/02-core.php:265
+#: inc/options-theme/OP_theme/04-about.php:520
 msgid "Avatar"
 msgstr ""
 
@@ -101,7 +141,14 @@ msgstr ""
 msgid "Behance"
 msgstr ""
 
+#: template-parts/section/about/details/it-list.php:39
+#: template-parts/section/about/details/en-list.php:39
+#: template-parts/section/about/details/fr-list.php:39
+msgid "Belgique"
+msgstr ""
+
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/04-about.php:111
 #: inc/options-theme/OP_theme/03-home.php:113
 #: inc/options-theme/OP_theme/03-home.php:193
 msgid "Cacher la section"
@@ -116,6 +163,7 @@ msgid "Cacher les réseaux sociaux de la sidebar"
 msgstr ""
 
 #. SLUG_SECTION
+#: inc/options-theme/OP_theme/04-about.php:225
 #: inc/options-theme/OP_theme/03-home.php:249
 msgid "Call to action"
 msgstr ""
@@ -139,6 +187,10 @@ msgstr ""
 msgid "Cette partie vous permet de gérer l'affichage de la bannière"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:273
+msgid "Cette partie vous permet de gérer l'affichage de la section"
+msgstr ""
+
 #: inc/options-theme/OP_theme/03-home.php:327
 msgid ""
 "Cette partie vous permet de gérer l'affichage desc call-to-action présent "
@@ -149,9 +201,23 @@ msgstr ""
 msgid "Cette partie vous permet de gérer l'affichage du métier visé"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:289
+msgid ""
+"Cette partie, vous permet de gérer l'affichage des call-to-action présent "
+"dans la section"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:281
+msgid "Cette partie, vous permet de gérer l'affichage des informations"
+msgstr ""
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_theme/02-core.php:124
 msgid "Choisir l'image"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:510
+msgid "Choisir la photo à afficher"
 msgstr ""
 
 #: inc/options-theme/OP_theme/02-core.php:302
@@ -168,7 +234,26 @@ msgid ""
 "coché"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:355
+msgid "Choisir les éléments à afficher"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:450
+msgid "Choisir quel message afficher"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:614
+msgid "Clients"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:622
+#: template-parts/section/about/counter/info.php:85
+msgid "Clients satisfaits"
+msgstr ""
+
 #: inc/options-theme/OP_theme/02-core.php:233
+#: inc/options-theme/OP_theme/04-about.php:418
+#: inc/options-theme/OP_theme/04-about.php:550
 #: inc/options-theme/OP_theme/03-home.php:511
 msgid "Cocher ce qui doit être présent"
 msgstr ""
@@ -177,8 +262,14 @@ msgstr ""
 msgid "Cocher et ajouter l'url de vos réseaux sociaux"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:395
+#: inc/options-theme/OP_theme/04-about.php:553
+msgid "Compteur"
+msgstr ""
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_theme/01-customTheme.php:145
+#: inc/options-theme/OP_theme/04-about.php:239
 #: inc/options-theme/OP_theme/03-home.php:270
 msgid "Contact"
 msgstr ""
@@ -186,6 +277,9 @@ msgstr ""
 #: template-parts/section/home/buttons/fr-btn.php:36
 #: template-parts/section/home/buttons/it-btn.php:36
 #: template-parts/section/home/buttons/en-btn.php:36
+#: template-parts/section/about/buttons/fr-btn.php:28
+#: template-parts/section/about/buttons/it-btn.php:28
+#: template-parts/section/about/buttons/en-btn.php:28
 msgid "Contactez-moi"
 msgstr ""
 
@@ -241,15 +335,38 @@ msgid "Date de naissance"
 msgstr ""
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/04-about.php:232
 #: inc/options-theme/OP_theme/03-home.php:263
 #: template-parts/section/home/buttons/fr-btn.php:27
 #: template-parts/section/home/buttons/it-btn.php:27
 #: template-parts/section/home/buttons/en-btn.php:27
+#: template-parts/section/about/buttons/fr-btn.php:19
+#: template-parts/section/about/buttons/it-btn.php:19
+#: template-parts/section/about/buttons/en-btn.php:19
 msgid "Download CV"
 msgstr ""
 
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/04-about.php:125
+msgid "Définir le design"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:319
+msgid "Définir le titre de la section"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:371
+#: inc/options-theme/OP_theme/04-about.php:421
+msgid "Détails perso"
+msgstr ""
+
 #. SLUG_SECTION
+#. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:105
+#: inc/options-theme/OP_theme/04-about.php:158
+#: template-parts/section/about/details/it-list.php:13
+#: template-parts/section/about/details/en-list.php:13
+#: template-parts/section/about/details/fr-list.php:13
 msgid "Détails personnels"
 msgstr ""
 
@@ -262,6 +379,13 @@ msgstr ""
 msgid "Enza Lombardo"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:422
+#: inc/options-theme/OP_theme/04-about.php:454
+#: inc/options-theme/OP_theme/04-about.php:514
+#: inc/options-theme/OP_theme/04-about.php:554
+msgid "est coché"
+msgstr ""
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:109
 msgid "Facebook"
@@ -272,6 +396,13 @@ msgstr ""
 msgid "Format"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:572
+msgid "Formations réalisées"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:322
+#: inc/options-theme/OP_theme/04-about.php:464
+#: inc/options-theme/OP_theme/04-about.php:487
 #: inc/options-theme/OP_theme/03-home.php:406
 #: inc/options-theme/OP_theme/03-home.php:441
 #: inc/options-theme/OP_theme/03-home.php:541
@@ -304,6 +435,10 @@ msgstr ""
 msgid "GitHub"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:560
+msgid "Général"
+msgstr ""
+
 #: inc/options-theme/OP_theme/01-customTheme.php:87
 #: inc/options-theme/OP_theme/01-customTheme.php:102
 #: inc/options-theme/OP_theme/01-customTheme.php:117
@@ -321,6 +456,11 @@ msgstr ""
 #. SLUG_SECTION
 #: inc/options-theme/OP_theme/02-core.php:102
 msgid "Gérer le header"
+msgstr ""
+
+#. SLUG_SECTION
+#: inc/options-theme/OP_theme/04-about.php:151
+msgid "Gérer les éléments"
 msgstr ""
 
 #. slug parent
@@ -361,6 +501,9 @@ msgstr ""
 msgid "Intro"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:340
+#: inc/options-theme/OP_theme/04-about.php:472
+#: inc/options-theme/OP_theme/04-about.php:495
 #: inc/options-theme/OP_theme/03-home.php:424
 #: inc/options-theme/OP_theme/03-home.php:483
 #: inc/options-theme/OP_theme/03-home.php:561
@@ -376,6 +519,19 @@ msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:291
 msgid "La localité"
+msgstr ""
+
+#: template-parts/section/about/counter/info.php:36
+msgid "Langage web"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:579
+msgid "Langages maîtrisés"
+msgstr ""
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/04-about.php:179
+msgid "Les compteurs"
 msgstr ""
 
 #: inc/options-theme/OP_theme/01-customTheme.php:92
@@ -421,6 +577,9 @@ msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:150
+#: template-parts/section/about/details/it-list.php:37
+#: template-parts/section/about/details/en-list.php:37
+#: template-parts/section/about/details/fr-list.php:37
 msgid "Localité"
 msgstr ""
 
@@ -438,6 +597,10 @@ msgstr ""
 msgid "Ma photo de profile"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:311
+msgid "Masquer la section about du thème"
+msgstr ""
+
 #: inc/options-theme/OP_theme/03-home.php:360
 msgid "Masquer la section home du thème"
 msgstr ""
@@ -450,6 +613,12 @@ msgstr ""
 #: template-parts/footer/legal.php:26
 #: inc/options-theme/OP_theme/02-core.php:320
 msgid "Mentions légales"
+msgstr ""
+
+#: template-parts/section/about/buttons/fr-btn.php:37
+#: template-parts/section/about/buttons/it-btn.php:37
+#: template-parts/section/about/buttons/en-btn.php:37
+msgid "Mes compétences"
 msgstr ""
 
 #. SLUG_SECTION
@@ -488,10 +657,23 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:460
+msgid "Message court"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:483
+msgid "Message long"
+msgstr ""
+
 #: inc/options-theme/OP_theme/03-home.php:589
 #: inc/options-theme/OP_theme/03-home.php:600
 #: inc/options-theme/OP_theme/03-home.php:611
 msgid "Modifier le texte \"Parler de sois\""
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:477
+#: inc/options-theme/OP_theme/04-about.php:500
+msgid "Modifier les textes \"Parler de sois\""
 msgstr ""
 
 #: inc/options-theme/OP_Profile/02-media.php:231
@@ -520,15 +702,27 @@ msgstr ""
 msgid "My Portfolio online"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:440
+msgid "Métier visé"
+msgstr ""
+
 #: inc/options-theme/OP_Profile/01-personalDetails.php:258
 #: inc/options-theme/OP_theme/02-core.php:237
 #: inc/options-theme/OP_theme/03-home.php:515
+#: template-parts/section/about/details/it-list.php:17
+#: template-parts/section/about/details/en-list.php:17
+#: template-parts/section/about/details/fr-list.php:17
 msgid "Nom"
 msgstr ""
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/01-personalDetails.php:113
+#: inc/options-theme/OP_theme/04-about.php:428
 msgid "Nom complet"
+msgstr ""
+
+#: template-parts/section/about/counter/info.php:29
+msgid "Nombre de formation"
 msgstr ""
 
 #: inc/options-theme/OP_theme/01-customTheme.php:160
@@ -546,9 +740,21 @@ msgstr ""
 msgid "Parler de sois"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:383
+msgid "Partie de droite"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:358
+msgid "Partie de gauche"
+msgstr ""
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_theme/02-core.php:178
 msgid "Partie légale"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:72
+msgid "Personnaliser l'about"
 msgstr ""
 
 #: inc/options-theme/OP_theme/03-home.php:74
@@ -562,7 +768,11 @@ msgstr ""
 msgid "Petite intro"
 msgstr ""
 
+#. SLUG_FIELD
 #: inc/options-theme/OP_theme/02-core.php:249
+#: inc/options-theme/OP_theme/04-about.php:172
+#: inc/options-theme/OP_theme/04-about.php:388
+#: inc/options-theme/OP_theme/04-about.php:513
 msgid "Photo"
 msgstr ""
 
@@ -572,17 +782,59 @@ msgstr ""
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:187
+#: template-parts/section/about/details/it-list.php:45
+#: template-parts/section/about/details/en-list.php:45
+#: template-parts/section/about/details/fr-list.php:45
 msgid "Poste"
 msgstr ""
 
 #: inc/options-theme/OP_theme/02-core.php:261
+#: inc/options-theme/OP_theme/04-about.php:524
 msgid "Profil"
+msgstr ""
+
+#: template-parts/section/about/counter/info.php:78
+msgid "Projet clients"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:618
+msgid "Projet clients (réel)"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:609
+#: template-parts/section/about/counter/info.php:71
+msgid "Projet graphique"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:605
+#: template-parts/section/about/counter/info.php:64
+msgid "Projet prototypage"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:601
+#: template-parts/section/about/counter/info.php:57
+msgid "Projet web"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:593
+msgid "Projets"
+msgstr ""
+
+#: template-parts/section/about/counter/info.php:50
+msgid "Projets achevés"
 msgstr ""
 
 #: inc/options-theme/OP_Profile/01-personalDetails.php:265
 #: inc/options-theme/OP_theme/02-core.php:241
 #: inc/options-theme/OP_theme/03-home.php:519
 msgid "Prénom"
+msgstr ""
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/04-about.php:165
+#: inc/options-theme/OP_theme/04-about.php:363
+#: inc/options-theme/OP_theme/04-about.php:453
+msgid "Qui suis-je"
 msgstr ""
 
 #. SLUG_SECTION
@@ -598,6 +850,11 @@ msgstr ""
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/04-aboutme.php:175
 msgid "Qui suis-je ? (en italien)"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:586
+#: template-parts/section/about/counter/info.php:43
+msgid "Repositories GitHub"
 msgstr ""
 
 #: inc/options-theme/OP_theme/03-home.php:402
@@ -662,6 +919,15 @@ msgstr ""
 msgid "Site Web"
 msgstr ""
 
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/04-about.php:246
+msgid "Skill"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:74
+msgid "Sur cette page vous pouvez gérer la section about du site"
+msgstr ""
+
 #: inc/options-theme/OP_theme/03-home.php:76
 msgid "Sur cette page vous pouvez gérer la section accueil du site"
 msgstr ""
@@ -691,18 +957,21 @@ msgstr ""
 msgid "Sur cette page, vous pouvez parler de vous"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:336
 #: inc/options-theme/OP_theme/03-home.php:469
 #: inc/options-theme/OP_theme/03-home.php:478
 #: inc/options-theme/OP_theme/03-home.php:556
 msgid "Texte en anglais"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:327
 #: inc/options-theme/OP_theme/03-home.php:448
 #: inc/options-theme/OP_theme/03-home.php:457
 #: inc/options-theme/OP_theme/03-home.php:546
 msgid "Texte en français"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:345
 #: inc/options-theme/OP_theme/03-home.php:490
 #: inc/options-theme/OP_theme/03-home.php:499
 #: inc/options-theme/OP_theme/03-home.php:566
@@ -727,6 +996,15 @@ msgid "Titre du poste en italien"
 msgstr ""
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/04-about.php:118
+msgid "Titre section"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:597
+msgid "Tous les projets"
+msgstr ""
+
+#. SLUG_FIELD
 #: inc/options-theme/OP_Profile/03-network.php:117
 msgid "Twitter"
 msgstr ""
@@ -745,6 +1023,13 @@ msgstr ""
 msgid "Uniquement le copyright"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:420
+#: inc/options-theme/OP_theme/04-about.php:452
+#: inc/options-theme/OP_theme/04-about.php:512
+#: inc/options-theme/OP_theme/04-about.php:552
+msgid "Uniquement si"
+msgstr ""
+
 #: inc/options-theme/OP_theme/03-home.php:538
 msgid "Uniquement si la section est visible"
 msgstr ""
@@ -753,6 +1038,17 @@ msgstr ""
 msgid "Uniquement si photo est chocher"
 msgstr ""
 
+#: inc/options-theme/OP_theme/04-about.php:436
+msgid "Ville"
+msgstr ""
+
 #: inc/options-theme/OP_Profile/04-aboutme.php:71
 msgid "À propos de moi"
+msgstr ""
+
+#: inc/options-theme/OP_theme/04-about.php:432
+#: template-parts/section/about/details/it-list.php:25
+#: template-parts/section/about/details/en-list.php:25
+#: template-parts/section/about/details/fr-list.php:25
+msgid "Âge"
 msgstr ""
