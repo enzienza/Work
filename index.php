@@ -35,6 +35,16 @@
     endif;
 ?>
 
+<?php
+/** ==================================================================
+ * 03 - PORTFOLIO SECTION
+ * @desc Display about-section if "about_hidden_section" is not checked
+ */
+    if(checked(1, get_option('work_hidden_section'), false)) : else :
+        get_template_part('template-parts/section/portfolio/index', 'portfolio');
+    endif;
+?>
+
 <!-- END : MAIN -->
 
 <?php get_footer(); ?>
