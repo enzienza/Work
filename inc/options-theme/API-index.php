@@ -28,3 +28,4 @@ require_once ('OP_theme/03-home.php');
 require_once ('OP_theme/04-about.php');
 require_once ('OP_theme/05-works.php');
 require_once ('OP_theme/06-contact.php');
+require_once ('OP_theme/07-errorpage.php');
