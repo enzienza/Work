@@ -127,14 +127,14 @@ class mywork_mycustome{
             <!-- start tr -->
             <tr class="importer-item">
                 <td class="import-system">
-                    <span class="importer-title"><?php _e('Portfolio', "MyWork")?></span>
+                    <span class="importer-title"><?php _e('Works', "MyWork")?></span>
                     <span class="importer-action">
-                      <a href="?page=" class="install-now"><?php _e("Gérer la section", "MyWork"); ?></a>
+                      <a href="?page=mycustome_works" class="install-now"><?php _e("Gérer la section", "MyWork"); ?></a>
                     </span>
                 </td>
                 <td class="desc">
                     <span class="importer-desc">
-                      <?php _e("Lien pour gérer la section portfolio", "MyWork"); ?>
+                      <?php _e("Lien pour gérer la section works", "MyWork"); ?>
                     </span>
                 </td>
             </tr><!-- end tr -->
