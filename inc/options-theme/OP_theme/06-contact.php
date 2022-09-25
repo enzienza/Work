@@ -172,7 +172,7 @@ class mycustome_contact{
         $contact_hidden_section = get_option('contact_hidden_section');
         ?>
         <input type="checkbox" id="contact_hidden_section" name="contact_hidden_section" value="1" <?php checked(1, $contact_hidden_section, true); ?> />
-        <label for=""><?php _e("Masquer la section portfolio du thème", "MyWork"); ?></label>
+        <label for=""><?php _e("Masquer la section contact du thème", "MyWork"); ?></label>
         <?php
     }
     public static function field_contact_title(){
@@ -242,7 +242,7 @@ class mycustome_contact{
         $contact_network = get_option('contact_network');
         ?>
         <input type="checkbox" id="contact_network" name="contact_network" value="1" <?php checked(1, $contact_network, true); ?> />
-        <label for=""><?php _e(" Afficher les réseaux sociaux dans la section contact", "MyWork"); ?></label>
+        <label for=""><?php _e("Afficher les réseaux sociaux dans la section contact", "MyWork"); ?></label>
         <?php
     }
 
