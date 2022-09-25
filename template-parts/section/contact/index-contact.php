@@ -9,7 +9,7 @@
  */
 ?>
 
-<div id="contact" class="my-container" style="height: 100vh">
+<section id="contact" class="my-container">
     <div class="title-section">
         <?php require_once("title/title.php") ?>
     </div>
@@ -25,4 +25,4 @@
     <?php if(checked(1, get_option('contact_network'), false)) : ?>
         <?php require_once("social/network.php") ?>
     <?php endif; ?>
-</div>
+</section>
