@@ -1,1 +1,126 @@
 // main: ../style.scss
+
+// This this style replaces the style of the Formidable-Forms plugin
+#my-form{
+    .frm_form_fields > fieldset {
+        border: none;
+    }
+
+    .frm_screen_reader, .frm_form_title{
+        display: none;
+    }
+
+    .frm_fields_container {
+        @include flex;
+        @include flex-flow(column wrap);
+    }
+
+    .frm_form_field {
+        @include flex;
+        @include flex-flow(column wrap);
+        margin-bottom: 1.5rem;
+        width: 100%;
+        clear: both;
+
+        input[type="text"],
+        input[type="email"]{
+            //height: auto;
+            padding: 5px;
+            height: 50px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea{
+            font-family: $font-primary;
+            //width: 100%;
+            border: 2px solid #ebeef1;
+            background: #fff;
+            border-radius: 5px;
+            //line-height: 50px;
+            padding: 18px;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+
+            transition: all .2s ease;
+            &:focus{
+                border-color: $color-primary-dark;
+                outline: 0;
+            }
+        }
+    }
+
+    .frm_error {
+        color: $color-danger;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+
+    .frm_error_style{
+        color: $color-danger;
+        line-height: 2;
+        padding-bottom: 1em;
+    }
+
+    .frm_message{
+        color: $color-success;
+    }
+
+    .frm_primary_label{
+        color: rgba($color-dark, .6);
+        font-family: $font-primary;
+        font-size: .9375rem;
+        margin-bottom: 1vmin;
+        display: block;
+        float: none;
+        width: auto;
+    }
+
+    .frm_submit {
+        @include flex;
+        margin-top: 1rem;
+    }
+
+    .frm_button_submit {
+        cursor: pointer;
+        @include box-shadow(none);
+        font-size: 16px;
+        border: 1px solid $color-primary-dark;
+        padding: 10px 22px;
+        color: $color-primary-dark;
+        letter-spacing: .5px;
+        font-weight: 500;
+        background-color: transparent;
+        display: inline;
+        text-transform: uppercase;
+        border-radius: 5px;
+        @include transition(all 0.5s ease);
+
+        &:hover, &:active, &:focus{
+            background-color: $color-primary-dark;
+            color: $color-light;
+        }
+    }
+
+    @include responsive(XL){
+        margin: auto;
+        min-width: calc(80% - 1vmin);
+    }
+    @include responsive(LG){
+        margin: auto;
+        min-width: calc(80% - 1vmin);
+    }
+    @include responsive(MD){}
+    @include responsive(SM){
+        margin-bottom: 2rem;
+        .frm_button_submit{
+            width: 100%;
+        }
+    }
+    @include responsive(XS){
+        margin-bottom: 2rem;
+        .frm_button_submit{
+            width: 100%;
+        }
+    }
+}
+

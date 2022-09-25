@@ -14,6 +14,12 @@ section{
     margin-bottom: 2rem;
 }
 
+#contact{
+    @include flex;
+    @include flex-flow(column nowrap);
+    @include justify-content(center);
+}
+
 .title-section{
     text-align: center;
     text-transform: capitalize;
