@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: My Portfolio 2022\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-09-19 17:46+0000\n"
-"PO-Revision-Date: 2022-09-25 14:37+0000\n"
+"PO-Revision-Date: 2022-09-25 17:18+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (UK)\n"
 "Language: en_GB\n"
@@ -66,6 +66,10 @@ msgstr "Show"
 msgid "Afficher l'icône"
 msgstr "Show icon"
 
+#: inc/options-theme/OP_theme/05-works.php:290
+msgid "Afficher l'émoji"
+msgstr "Display emoji"
+
 #: inc/options-theme/OP_theme/04-about.php:640
 #: inc/options-theme/OP_theme/04-about.php:656
 #: inc/options-theme/OP_theme/04-about.php:672
@@ -79,6 +83,10 @@ msgstr "Show button"
 #: inc/options-theme/OP_theme/04-about.php:401
 msgid "Afficher les deux"
 msgstr "Show both"
+
+#: inc/options-theme/OP_theme/05-works.php:266
+msgid "Afficher une description à la section"
+msgstr "Display a description in the section"
 
 #: inc/options-theme/OP_theme/03-home.php:585
 #: inc/options-theme/OP_theme/03-home.php:596
@@ -106,6 +114,9 @@ msgstr "All rights reserved"
 #: inc/options-theme/OP_theme/04-about.php:331
 #: inc/options-theme/OP_theme/04-about.php:468
 #: inc/options-theme/OP_theme/04-about.php:491
+#: inc/options-theme/OP_theme/05-works.php:237
+#: inc/options-theme/OP_theme/05-works.php:274
+#: inc/options-theme/OP_theme/05-works.php:310
 #: inc/options-theme/OP_theme/03-home.php:415
 #: inc/options-theme/OP_theme/03-home.php:462
 #: inc/options-theme/OP_theme/03-home.php:551
@@ -148,6 +159,7 @@ msgstr "Belgium"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_theme/04-about.php:111
+#: inc/options-theme/OP_theme/05-works.php:110
 #: inc/options-theme/OP_theme/03-home.php:113
 #: inc/options-theme/OP_theme/03-home.php:193
 msgid "Cacher la section"
@@ -166,6 +178,10 @@ msgstr "Hide social networks from the sidebar"
 #: inc/options-theme/OP_theme/03-home.php:249
 msgid "Call to action"
 msgstr "Call to action"
+
+#: inc/options-theme/OP_theme/05-works.php:298
+msgid "Ce message sera présent si la boucle est vide"
+msgstr "This message will be present if the loop is empty"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_theme/02-core.php:117
@@ -188,6 +204,7 @@ msgid "Cette partie vous permet de gérer l'affichage de la bannière"
 msgstr "This part allows you to manage the display of the banner"
 
 #: inc/options-theme/OP_theme/04-about.php:273
+#: inc/options-theme/OP_theme/05-works.php:188
 msgid "Cette partie vous permet de gérer l'affichage de la section"
 msgstr "This part allows you to manage the display of the section"
 
@@ -203,11 +220,17 @@ msgstr ""
 msgid "Cette partie vous permet de gérer l'affichage du métier visé"
 msgstr "This part allows you to manage the display of the target job"
 
+#: inc/options-theme/OP_theme/05-works.php:196
+msgid "Cette partie vous permet de gérer la boucle"
+msgstr "This part allows you to manage the loop"
+
 #: inc/options-theme/OP_theme/04-about.php:289
 msgid ""
 "Cette partie, vous permet de gérer l'affichage des call-to-action présent "
 "dans la section"
-msgstr "This part allows you to manage the display of the call-to-actions present in the section"
+msgstr ""
+"This part allows you to manage the display of the call-to-actions present in "
+"the section"
 
 #: inc/options-theme/OP_theme/04-about.php:281
 msgid "Cette partie, vous permet de gérer l'affichage des informations"
@@ -337,6 +360,11 @@ msgid "Date de naissance"
 msgstr "Date of birth"
 
 #. SLUG_FIELD
+#: inc/options-theme/OP_theme/05-works.php:124
+msgid "Description section"
+msgstr "Section description"
+
+#. SLUG_FIELD
 #: inc/options-theme/OP_theme/04-about.php:232
 #: inc/options-theme/OP_theme/03-home.php:263
 #: template-parts/section/home/buttons/fr-btn.php:27
@@ -354,6 +382,7 @@ msgid "Définir le design"
 msgstr "Define design"
 
 #: inc/options-theme/OP_theme/04-about.php:319
+#: inc/options-theme/OP_theme/05-works.php:225
 msgid "Définir le titre de la section"
 msgstr "Define section title"
 
@@ -405,6 +434,9 @@ msgstr "Courses completed"
 #: inc/options-theme/OP_theme/04-about.php:322
 #: inc/options-theme/OP_theme/04-about.php:464
 #: inc/options-theme/OP_theme/04-about.php:487
+#: inc/options-theme/OP_theme/05-works.php:228
+#: inc/options-theme/OP_theme/05-works.php:270
+#: inc/options-theme/OP_theme/05-works.php:301
 #: inc/options-theme/OP_theme/03-home.php:406
 #: inc/options-theme/OP_theme/03-home.php:441
 #: inc/options-theme/OP_theme/03-home.php:541
@@ -441,12 +473,19 @@ msgstr "GitHub"
 msgid "Général"
 msgstr "General"
 
+#. SLUG_SECTION
+#: inc/options-theme/OP_theme/05-works.php:152
+msgid "Gérer la boucle"
+msgstr "Managing the loop"
+
+#. SLUG_SECTION
 #: inc/options-theme/OP_theme/01-customTheme.php:87
 #: inc/options-theme/OP_theme/01-customTheme.php:102
 #: inc/options-theme/OP_theme/01-customTheme.php:117
 #: inc/options-theme/OP_theme/01-customTheme.php:132
 #: inc/options-theme/OP_theme/01-customTheme.php:147
 #: inc/options-theme/OP_theme/01-customTheme.php:162
+#: inc/options-theme/OP_theme/05-works.php:102
 msgid "Gérer la section"
 msgstr "Manage the section"
 
@@ -506,6 +545,9 @@ msgstr "Introduction"
 #: inc/options-theme/OP_theme/04-about.php:340
 #: inc/options-theme/OP_theme/04-about.php:472
 #: inc/options-theme/OP_theme/04-about.php:495
+#: inc/options-theme/OP_theme/05-works.php:246
+#: inc/options-theme/OP_theme/05-works.php:278
+#: inc/options-theme/OP_theme/05-works.php:319
 #: inc/options-theme/OP_theme/03-home.php:424
 #: inc/options-theme/OP_theme/03-home.php:483
 #: inc/options-theme/OP_theme/03-home.php:561
@@ -557,8 +599,9 @@ msgid "Lien pour gérer la section l'about"
 msgstr "Link to manage the about section"
 
 #: inc/options-theme/OP_theme/01-customTheme.php:137
-msgid "Lien pour gérer la section portfolio"
-msgstr "ink to manage the portfolio section"
+#| msgid "Lien pour gérer la section portfolio"
+msgid "Lien pour gérer la section works"
+msgstr "Link to manage the works section"
 
 #: inc/options-theme/OP_theme/03-home.php:443
 #: inc/options-theme/OP_theme/03-home.php:464
@@ -606,6 +649,10 @@ msgstr "Hide the about section of the theme"
 #: inc/options-theme/OP_theme/03-home.php:360
 msgid "Masquer la section home du thème"
 msgstr "Hide theme home section"
+
+#: inc/options-theme/OP_theme/05-works.php:217
+msgid "Masquer la section work du thème"
+msgstr "Hide theme work section"
 
 #: inc/options-theme/OP_theme/03-home.php:530
 msgid "Masquer le poste visé"
@@ -658,6 +705,11 @@ msgstr "My social networks"
 #: inc/options-theme/OP_theme/03-home.php:200
 msgid "Message"
 msgstr "Message"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/05-works.php:167
+msgid "Message boucle"
+msgstr "Loop message"
 
 #: inc/options-theme/OP_theme/04-about.php:460
 msgid "Message court"
@@ -763,6 +815,10 @@ msgstr "Customize about"
 msgid "Personnaliser l'accueil"
 msgstr "Customise home"
 
+#: inc/options-theme/OP_theme/05-works.php:70
+msgid "Personnaliser work"
+msgstr "Customise work"
+
 #. SLUG_FIELD
 #: inc/options-theme/OP_Profile/04-aboutme.php:111
 #: inc/options-theme/OP_Profile/04-aboutme.php:147
@@ -777,10 +833,6 @@ msgstr "Short introduction"
 #: inc/options-theme/OP_theme/04-about.php:513
 msgid "Photo"
 msgstr "Picture"
-
-#: inc/options-theme/OP_theme/01-customTheme.php:130
-msgid "Portfolio"
-msgstr "Portfolio"
 
 #. SLUG_SECTION
 #: inc/options-theme/OP_Profile/01-personalDetails.php:187
@@ -934,6 +986,10 @@ msgstr "On this page you can manage the about section of the site"
 msgid "Sur cette page vous pouvez gérer la section accueil du site"
 msgstr "On this page you can manage the home section of the site"
 
+#: inc/options-theme/OP_theme/05-works.php:72
+msgid "Sur cette page vous pouvez gérer la section work du site"
+msgstr "On this page you can manage the works section of the site"
+
 #: inc/options-theme/OP_Profile/02-media.php:71
 msgid ""
 "Sur cette page vous pouvez gérer les différents médias de votre portfolio"
@@ -960,6 +1016,9 @@ msgid "Sur cette page, vous pouvez parler de vous"
 msgstr "On this page you can talk about yourself"
 
 #: inc/options-theme/OP_theme/04-about.php:336
+#: inc/options-theme/OP_theme/05-works.php:242
+#: inc/options-theme/OP_theme/05-works.php:275
+#: inc/options-theme/OP_theme/05-works.php:315
 #: inc/options-theme/OP_theme/03-home.php:469
 #: inc/options-theme/OP_theme/03-home.php:478
 #: inc/options-theme/OP_theme/03-home.php:556
@@ -967,6 +1026,9 @@ msgid "Texte en anglais"
 msgstr "Text in English"
 
 #: inc/options-theme/OP_theme/04-about.php:327
+#: inc/options-theme/OP_theme/05-works.php:233
+#: inc/options-theme/OP_theme/05-works.php:271
+#: inc/options-theme/OP_theme/05-works.php:306
 #: inc/options-theme/OP_theme/03-home.php:448
 #: inc/options-theme/OP_theme/03-home.php:457
 #: inc/options-theme/OP_theme/03-home.php:546
@@ -974,6 +1036,9 @@ msgid "Texte en français"
 msgstr "ext in French"
 
 #: inc/options-theme/OP_theme/04-about.php:345
+#: inc/options-theme/OP_theme/05-works.php:251
+#: inc/options-theme/OP_theme/05-works.php:279
+#: inc/options-theme/OP_theme/05-works.php:324
 #: inc/options-theme/OP_theme/03-home.php:490
 #: inc/options-theme/OP_theme/03-home.php:499
 #: inc/options-theme/OP_theme/03-home.php:566
@@ -999,6 +1064,7 @@ msgstr "Job title in Italian"
 
 #. SLUG_FIELD
 #: inc/options-theme/OP_theme/04-about.php:118
+#: inc/options-theme/OP_theme/05-works.php:117
 msgid "Titre section"
 msgstr "Section title"
 
@@ -1044,6 +1110,14 @@ msgstr "Only if the photo is checked"
 msgid "Ville"
 msgstr "City"
 
+#. slug parent
+#. page_title
+#: inc/options-theme/OP_theme/01-customTheme.php:130
+#: inc/options-theme/OP_theme/05-works.php:56
+#: inc/options-theme/OP_theme/05-works.php:57
+msgid "Works"
+msgstr "Works"
+
 #: inc/options-theme/OP_Profile/04-aboutme.php:71
 msgid "À propos de moi"
 msgstr "About me"
@@ -1054,3 +1128,8 @@ msgstr "About me"
 #: template-parts/section/about/details/fr-list.php:25
 msgid "Âge"
 msgstr "Age"
+
+#. SLUG_FIELD
+#: inc/options-theme/OP_theme/05-works.php:160
+msgid "Émoji"
+msgstr "Emoji"
