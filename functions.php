@@ -40,7 +40,7 @@ require_once ('inc/options-theme/API-index.php');
 /** =====================================================
  *  4 - POST-TYPE
  */
-
+require_once ('inc/post-type/CPT_works.php');
 
 /** =====================================================
  *  5 - TAXONOMIES
