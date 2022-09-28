@@ -45,3 +45,4 @@ require_once ('inc/post-type/CPT_works.php');
 /** =====================================================
  *  5 - TAXONOMIES
  */
+require_once ('inc/taxonomies/taxo-index.php');
