@@ -17,22 +17,22 @@ if(!function_exists('CPT_works')){
          * @var array
          */
         $labels = array(
-            'name'               => _x('Travaux', 'MyWork'),
-            'singular_name'      => _x('Travail', 'MyWork'),
-            'menu_name'          => _x('Travaux', 'MyWork'),
+            'name'               => __('Travaux', 'MyWork'),
+            'singular_name'      => __('Travail', 'MyWork'),
+            'menu_name'          => __('Travaux', 'MyWork'),
             'name_admin_bar'     => __('Travail', 'MyWork'),
             'all_items'          => __('Toutes les travaux', 'MyWork'),
             'add_new'            => __('Ajouter', 'MyWork'),
             'add_new_item'       => __('Ajouter un nouveau travail', 'MyWork'),
-            'new_item'           => __('Nouvelle travail', 'MyWork'),
+            'new_item'           => __('Nouveau travail', 'MyWork'),
             'edit_item'          => __('Modifier le travail', 'MyWork'),
             'view_item'          => __('Afficher le travail', 'MyWork'),
-            'view_items'         => __('Afficher les travaux', 'MyWork'),
-            'search_items'       => __('Chercher dans les travaux', 'MyWork'),
-            'not_found'          => __('Aucune travail trouvée', 'MyWork'),
-            'not_fount_in_trash' => __('Aucune travail trouvée dans la corbeille', 'MyWork'),
+            'update_item'        => __('Mettre à jour le travail', 'MyWork'),
+            'search_items'       => __('Rechercher dans les travaux', 'MyWork'),
+            'not_found'          => __('Aucun travail trouvée', 'MyWork'),
+            'not_found_in_trash' => __('Aucun travail trouvé dans la corbeille', 'MyWork'),
             'filter_items_list'  => __('Filtrer la liste des travaux', 'MyWork'),
-            'attributes'         => __('Attributs du travail', 'MyWork')
+            'attributes'         => __('Attributs du travail', 'MyWork'),
         );
 
         /**
