@@ -12,3 +12,4 @@
  * Taxonomy for CPT_works
  */
 require_once ('type-project.php');
+require_once ('label-project.php');
