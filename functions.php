@@ -29,7 +29,7 @@ require_once ('inc/customize/config-index.php');
 /** =====================================================
  *  2 - METABOXES
  */
-
+require_once ('inc/metaboxes/meta_index.php');
 
 /** =====================================================
  *  3 - OPTIONS-THEME
