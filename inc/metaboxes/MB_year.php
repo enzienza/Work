@@ -9,15 +9,17 @@
  * @since 1.0.0
  */
 
-/**
- * Table of Contents:
- *
- * 1 - DEFINIR LES VALEURS (repeter)
- * 2 - DEFINIR LES HOOKS ACTIONS
- * 3 - CONSTRUCTION DE LA METABOX
- * 4 - DEFENIR LA METABOX (template & champs)
- * 5 - SAUVEGARDER LES DONNEES DE LA METABOX
- */
+/* ---------------------------------------------------------
+>>>  TABLE OF CONTENTS:
+------------------------------------------------------------
+
+1 - DEFINIR LES VALEURS (repeter)
+2 - DEFINIR LES HOOKS ACTIONS
+3 - CONSTRUCTION DE LA METABOX
+4 - DEFENIR LA METABOX (template & champs)
+5 - SAUVEGARDER LES DONNEES DE LA METABOX
+
+----------------------------------------------------------*/
 
 class MB_Year{
     /**
@@ -26,7 +28,7 @@ class MB_Year{
     //const TITLE_MB = "Information";
     const META_KEY = 'year_info';
     const NONCE    = '_year_info';
-    const SCREEN = array('works');
+    const SCREEN   = array('works');
 
     /**
      *2 - DEFINIR LES HOOKS ACTIONS
@@ -46,7 +48,7 @@ class MB_Year{
                 __('Année', 'MyWork'),            // TITLE_META_BOX
                 [self::class, 'render'],        // CALLBACK
                 self::SCREEN,            // WP_SCREEN
-                'side',             // CONTEXT [ normal | advanced | side ]
+                'advanced',             // CONTEXT [ normal | advanced | side ]
                 'high'                  // PRIORITY [ high | default | low ]
             );
         }

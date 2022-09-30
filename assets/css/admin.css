@@ -504,25 +504,62 @@ label strong{
 /** ==============================================
     6 - METABOXES
  */
-.components-base-control__field div{
-    margin: 1rem auto;
+.hndle{
+    border: none;
 }
-.components-base-control__field label{
-    line-height: 2;
+#advanced-sortables {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*gap: 1rem;*/
 }
+.postbox-container .postbox {
+    border-right: 1px solid #e0e0e0;
+}
+.postbox-container .postbox:last-child{
+    border-right: 0;
+}
+
+/*.components-base-control__field div{*/
+/*    margin: 1rem auto;*/
+/*}*/
+
 .components-base-control__field .desc {
     color: var(--color-border);
 }
+
+/* element form */
+.components-base-control__field input[type="text"]{
+    width: 100%;
+}
+/*.components-base-control__field label{*/
+/*    line-height: 2;*/
+/*}*/
 .meta-box-sortables input::placeholder {
     font-weight: 300;
     color: var(--color-border);
 }
-
-input[type="radio"]{
+.components-base-control__field input[type="radio"]{
     margin-left: 5px;
     margin-right: 5px;
 }
 
+/*  MB_context  */
+.context-lists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+}
+.context-item{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    /*margin: 1rem 0;*/
+}
+.context-item .retrait{
+    margin-left: 2em;
+    font-weight: 100;
+    padding-top: 3px;
+}
 
 /** ==============================================
     7 - RESPONSIVE
